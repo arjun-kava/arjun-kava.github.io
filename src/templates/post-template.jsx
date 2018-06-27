@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { DiscussionEmbed } from "disqus-react";
 import PostTemplateDetails from '../components/PostTemplateDetails';
 
 class PostTemplate extends React.Component {
@@ -8,7 +9,11 @@ class PostTemplate extends React.Component {
     const post = this.props.data.markdownRemark;
     const { title: postTitle, description: postDescription } = post.frontmatter;
     const description = postDescription !== null ? postDescription : subtitle;
-
+    const disqusShortname = "https-arjun-kava-github-io";
+    const disqusConfig = {
+      identifier: post.id,
+      title: post.frontmatter.title,
+    };
     return (
       <div>
         <Helmet>
@@ -16,6 +21,7 @@ class PostTemplate extends React.Component {
           <meta name="description" content={description} />
         </Helmet>
         <PostTemplateDetails {...this.props} />
+        <div><DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /></div>
       </div>
     );
   }
