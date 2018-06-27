@@ -9,7 +9,7 @@ class PostTemplate extends React.Component {
     const post = this.props.data.markdownRemark;
     const { title: postTitle, description: postDescription } = post.frontmatter;
     const description = postDescription !== null ? postDescription : subtitle;
-    const disqusShortname = "https-arjun-kava-github-io";
+    const disqusShortname = "arjun-kava";
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
@@ -21,7 +21,7 @@ class PostTemplate extends React.Component {
           <meta name="description" content={description} />
         </Helmet>
         <PostTemplateDetails {...this.props} />
-        <div><DiscussionEmbed shortname={disqusShortname} config={disqusConfig} /></div>
+        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </div>
     );
   }

@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    pathPrefix: "/arjun-kava.github.io",
+    pathPrefix: "arjun-kava",
     url: 'https://arjun-kava.github.io/',
     title: 'Blog by Arjun Kava',
     subtitle: `I am a tireless seeker of knowledge, occassional purveyor of wisdom and also, coincidentally, a deep learning engineer.`,
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'arjun-kava',
     menu: [
       {
         label: 'Articles',
@@ -158,6 +158,12 @@ module.exports = {
             };
           })
       }
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://coruscate.us17.list-manage.com/subscribe/post?u=1dc7999316ae7e30d2ff10fce&amp;id=1ceae4085d', // see instructions section below
+      },
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
