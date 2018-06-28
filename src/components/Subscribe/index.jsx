@@ -77,7 +77,7 @@ export default class Subscribe extends React.Component {
                     <div>Thank you! Youʼll receive your first email shortly.</div>
                 ) : (
                         <div >
-                            <p>Enjoyed this post? Receive the next one in your inbox!</p>
+                            <span>Enjoyed this post? Want to Receive the next one in your inbox!</span>
                             <form
                                 id="email-capture"
                                 method="post"
