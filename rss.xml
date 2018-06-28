@@ -1,13 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occassional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 27 Jun 2018 15:48:43 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[Life is easier than you think.]]></description><link>https://arjun-kava.github.io//posts/hello-world/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/hello-world/</guid><pubDate>Sun, 24 Jun 2018 13:22:34 GMT</pubDate><content:encoded>&lt;p&gt;An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.&lt;/p&gt;
-&lt;p&gt;The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.&lt;/p&gt;
-&lt;p&gt;But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.&lt;/p&gt;
-&lt;h2&gt;The first transition&lt;/h2&gt;
-&lt;p&gt;A similar conflict emerged after the invention of the first printing press in Europe. Johannes Gutenberg invented movable type and used it to produce different compositions. His workshop could print up to 240 impressions per hour. Until then, the books were being copied by hand. All the books were handwritten and decorated with hand drawn ornaments and figures. A process of copying a book was long but each book, even a copy, was a work of art.&lt;/p&gt;
-&lt;p&gt;The first printed books were, at first, perceived as inferior to the handwritten ones. They were smaller and cheaper to produce. Movable type provided the printers with flexibility that allowed them to print books in languages other than Latin. Gill describes the transition to industrialism as something that people needed and wanted. Something similar happened after the first printed books emerged. People wanted books in a language they understood and they wanted books they could take with them. They were hungry for knowledge and printed books satisfied this hunger.&lt;/p&gt;
-&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occassional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 28 Jun 2018 16:24:26 GMT</lastBuildDate><item><title><![CDATA[How To Create Successfull Blog In Hour]]></title><description><![CDATA[Want to start blog? Need simple process that can be completed in 60 minutes?]]></description><link>https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</guid><pubDate>Thu, 28 Jun 2018 13:22:34 GMT</pubDate><content:encoded>&lt;p&gt;Want to start blog?
+Need simple process that can be completed in 60 minutes?&lt;/p&gt;
+&lt;p&gt;Starting a blog seems to hard but not really much harder, if you have right choice on tools. Today we are going to create a starter blog with comments and subscription, isn’t it amazing? yeah, let’s get start it.&lt;/p&gt;
+&lt;h3&gt;Assumptions&lt;/h3&gt;
+&lt;p&gt;I assume, You knew some basics about How &lt;code class=&quot;language-text&quot;&gt;reactjs&lt;/code&gt; works but if you don’t knew the basics start from &lt;a href=&quot;https://reactjs.org/tutorial/tutorial.html&quot;&gt;here&lt;/a&gt;. Please dont’t get too hard on it, just need to know basics of reactjs and structure of the app.&lt;/p&gt;
+&lt;h3&gt;Getting Started with Gatsby.js&lt;/h3&gt;
+&lt;p&gt;Install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; by executing following command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install --global gatsby-cli&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;above command will install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; globally which is going to helpul for createing our first blog. (Note: Node.js is required to install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt;)&lt;/p&gt;
+&lt;h3&gt;Select Starter&lt;/h3&gt;
+&lt;p&gt;Gatsby Community provides multiple starters for creating new blog, find out from &lt;a href=&quot;https://www.gatsbyjs.org/docs/gatsby-starters/&quot;&gt;here&lt;/a&gt;. I prefer to use &lt;a href=&quot;https://lumen.netlify.com/&quot;&gt;lumen starter&lt;/a&gt; by &lt;a href=&quot;https://github.com/alxshelepenok&quot;&gt;@Alexander Shelepenok&lt;/a&gt;. ❤️ Thank you man!&lt;/p&gt;
+&lt;h3&gt;install Starter&lt;/h3&gt;
+&lt;p&gt;Install lumen starter into your personal computer by executing following command from Command Prompt / Terminal whatever you prefer.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It will create directory named &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; and installs all dependencies in a single shot (impressed!). The project will have following directory structure&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;└── src
+    ├── assets
+    │   ├── fonts
+    │   │   └── fontello-771c82e0
+    │   │       ├── css
+    │   │       └── font
+    │   └── scss
+    │       ├── base
+    │       ├── mixins
+    │       └── pages
+    ├── components
+    │   ├── CategoryTemplateDetails
+    │   ├── Disqus
+    │   ├── Links
+    │   ├── Menu
+    │   ├── PageTemplateDetails
+    │   ├── Post
+    │   ├── PostTemplateDetails
+    │   ├── Sidebar
+    │   └── TagTemplateDetails
+    ├── layouts
+    ├── pages
+    │   ├── articles
+    │   │   ├── 2016-01-09---Perfecting-the-Art-of-Perfection
+    │   │   ├── 2016-01-12---The-Origins-of-Social-Stationery-Lettering
+    │   │   ├── 2016-02-02---A-Brief-History-of-Typography
+    │   │   ├── 2017-18-08---The-Birth-of-Movable-Type
+    │   │   └── 2017-19-08---Humane-Typography-in-the-Digital-Age
+    │   └── pages
+    │       ├── 2015-05-01---about
+    │       └── 2015-05-01---contact
+    └── templates
+└── gatsby-config.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;Run Project&lt;/h4&gt;
+&lt;p&gt;Open command prompt / Terminal and hit &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; from &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; directory. It will run our first blog via local server on &lt;a href=&quot;http://localhost:8000/&quot;&gt;localhost:8000&lt;/a&gt; url. 🎉 🎉 🎉
+
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
+    href=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -15,89 +65,71 @@
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block; ; max-width: 678px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 68.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABvbVGo5jf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIBEhARMf/aAAgBAQABBQLhdiL42osM0f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEUECEHH/2gAIAQEABj8CWqFJZKzhcP/EABsQAQACAwEBAAAAAAAAAAAAAAEAETFBUSFh/9oACAEBAAE/IWxVd4gBVvhEjFdWyikMcY8eJ8CgpP/aAAwDAQACAAMAAAAQKM//xAAWEQEBAQAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8QrH//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAGhABAQADAQEAAAAAAAAAAAAAAREAIUFRMf/aAAgBAQABPxBRJVIvuRSQtfbjhE6LUnde3AkS1hAkddHuFEtpWk19z//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 70.79646017699115%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABt0lEQVQoz2VSi47bIBD0//9ZpUpVGyl2znd5GYMT8AMMNn7hjqHJ5XojjBbvDjsDRNXp/eP0k5W806Ysy6qqjDFd12HaxhZsUEoJLuq6bpoGZZTSy+USKZQ3XLZtq1olUaN0qxFgbbQ0rez8Xlpr9YKwRbSsa5mdzr9/rOs6eszzzFhxPp+aOxH0XAqOOmzhnFs85geieXG3/JrufrXaDIMFGen7/XY4HI7H49tbmiRJmqaEEGguPSBkmiZURpgbqdjtzhiVUvZ2WJwz3dB1Njj2mg1kI1t5WGuDxggf/CI3jlPf91720khjZLP2rYOwZVmdWz2C5vGBCAvOBef8+RcVhGTx7s97vPtI0x5ulxlbOA9kP8lQr2QteBFsjOMwTXNV1dmVkG1cWZ6znNKcMkoLhlWOo356nitRgD49OiMhBCcZ2Tgkx8gJKbmAZ9D+99z3nbUD8NQjtR2sXcfBBTMDAjjfbEP5p+zAeSFunTNCyeVYFRkuBn1wXssSLnmdXz2/NnySc5Lt9/s4SeI4ZoxBani5mL7c83cyUEuNM1PeZHgbwiME4Ub/ef6Orp82AQ/MX/Es+wvpWx5JxEwi6wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;42-line-bible.jpg&quot;
+        alt=&quot;blog_layout.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg&quot;
-        srcset=&quot;/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-6a66e.jpg 240w,
-/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-bc76f.jpg 480w,
-/static/42-line-bible-6d93cbc4956a854d4c4369f0e281e7f3-00f86.jpg 800w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        src=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
+        srcset=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-9476e.png 240w,
+/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-a94e0.png 480w,
+/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png 678w&quot;
+        sizes=&quot;(max-width: 678px) 100vw, 678px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The 42–Line Bible, printed by Gutenberg.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;But, through this transition, the book lost a large part of its humanity. The machine took over most of the process but craftsmanship was still a part of it. The typefaces were cut manually by the first punch cutters. The paper was made by hand. The illustrations and ornaments were still being hand drawn. These were the remains of the craftsmanship that went almost extinct in the times of Eric Gill.&lt;/p&gt;
-&lt;h2&gt;The digital age&lt;/h2&gt;
-&lt;p&gt;The first transition took away a large part of humanity from written communication. Industrialisation, the second transition described by Eric Gill, took away most of what was left. But it’s the third transition that stripped it naked. Typefaces are faceless these days. They’re just fonts on our computers. Hardly anyone knows their stories. Hardly anyone cares. Flicking through thousands of typefaces and finding the “right one” is a matter of minutes.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In the new computer age the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest.&lt;/p&gt;
-&lt;p&gt;— Massimo Vignelli&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Typography is not about typefaces. It’s not about what looks best, it’s about what feels right. What communicates the message best. Typography, in its essence, is about the message. “Typographical design should perform optically what the speaker creates through voice and gesture of his thoughts.”, as El Lissitzky, a famous Russian typographer, put it.&lt;/p&gt;
-&lt;h2&gt;Loss of humanity through transitions&lt;/h2&gt;
-&lt;p&gt;Each transition took away a part of humanity from written language. Handwritten books being the most humane form and the digital typefaces being the least. Overuse of Helvetica is a good example. Messages are being told in a typeface just because it’s a safe option. It’s always there. Everyone knows it but yet, nobody knows it. Stop someone on the street and ask him what Helvetica is? Ask a designer the same question. Ask him where it came from, when, why and who designed it. Most of them will fail to answer these questions. Most of them used it in their precious projects but they still don’t spot it in the street.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;blockquote&gt;
-		&lt;p&gt;Knowledge of the quality of a typeface is of the greatest importance for the functional, aesthetic and psychological effect.&lt;/p&gt;
-		&lt;footer&gt;
-			&lt;cite&gt;— Josef Mueller-Brockmann&lt;/cite&gt;
-		&lt;/footer&gt;
-	&lt;/blockquote&gt;
-&lt;/figure&gt;
-&lt;p&gt;Typefaces don’t look handmade these days. And that’s all right. They don’t have to. Industrialism took that away from them and we’re fine with it. We’ve traded that part of humanity for a process that produces more books that are easier to read. That can’t be bad. And it isn’t.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Humane typography will often be comparatively rough and even uncouth; but while a certain uncouthness does not seriously matter in humane works, uncouthness has no excuse whatever in the productions of the machine.&lt;/p&gt;
-&lt;p&gt;— Eric Gill&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;We’ve come close to “perfection” in the last five centuries. The letters are crisp and without rough edges. We print our compositions with high–precision printers on a high quality, machine made paper.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 20%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAEABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABrqJaRR//xAAXEAEAAwAAAAAAAAAAAAAAAAABAAIQ/9oACAEBAAEFAhlc/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EABYQAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAQAGPwIc/8QAGRAAAQUAAAAAAAAAAAAAAAAAAQAQESFx/9oACAEBAAE/ITCVU6b/2gAMAwEAAgADAAAAEIgP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABURAQEAAAAAAAAAAAAAAAAAABAx/9oACAECAQE/EJP/xAAaEAEAAgMBAAAAAAAAAAAAAAABESEAEEFh/9oACAEBAAE/EAFK31cnbX06/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;type-through-time.jpg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg&quot;
-        srcset=&quot;/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-865fd.jpg 240w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d40a0.jpg 480w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-d564d.jpg 960w,
-/static/type-through-time-eaa988471fd2b61a1d4d313d0d9a5d23-b89bf.jpg 1250w&quot;
-        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Type through 5 centuries.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We lost a part of ourselves because of this chase after perfection. We forgot about the craftsmanship along the way. And the worst part is that we don’t care. The transition to the digital age made that clear. We choose typefaces like clueless zombies. There’s no meaning in our work. Type sizes, leading, margins… It’s all just a few clicks or lines of code. The message isn’t important anymore. There’s no more “why” behind the “what”.&lt;/p&gt;
-&lt;h2&gt;Chasing perfection&lt;/h2&gt;
-&lt;p&gt;Human beings aren’t perfect. Perfection is something that will always elude us. There will always be a small part of humanity in everything we do. No matter how small that part, we should make sure that it transcends the limits of the medium. We have to think about the message first. What typeface should we use and why? Does the typeface match the message and what we want to communicate with it? What will be the leading and why? Will there be more typefaces in our design? On what ground will they be combined? What makes our design unique and why? This is the part of humanity that is left in typography. It might be the last part. Are we really going to give it up?&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Originally published by &lt;a href=&quot;https://arjun-kava.github.io/&quot;&gt;Arjun Kava&lt;/a&gt; on &lt;a href=&quot;https://arjun-kava.github.io/posts/hello-world/&quot;&gt;Github&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+    
+&lt;em&gt;Example of running lumen blog starter.&lt;/em&gt;
+Navigate through &lt;code class=&quot;language-text&quot;&gt;src/pages/articles&lt;/code&gt; where you can find blogs and their related images. Also you can just add new blogs and delete old ones.&lt;/p&gt;
+&lt;h3&gt;Edit Configuration&lt;/h3&gt;
+&lt;p&gt;find &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; from root directory and edit &lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;subtitle&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;author&lt;/code&gt; information, Here you go our blog is ready to deploy. You can change avatar by navigating through file &lt;code class=&quot;language-text&quot;&gt;src/pages/photo.jpg&lt;/code&gt; and just replace with your avtar.&lt;/p&gt;
+&lt;h3&gt;Deploy On Github Pages&lt;/h3&gt;
+&lt;p&gt;Now it might seems like what about deploying this blog? So we are going to deploy it on &lt;a href=&quot;https://github.com/&quot;&gt;Gihub&lt;/a&gt; using &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First of all create public repository with &lt;your user name&gt;.github.io. If you don’t have github account just open one first, then install gatsby community plugin called &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;. run following command to install it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;then add following &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script to &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public --branch master&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;file: package.json&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;why I had set branch as &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;? becuase github pages requires &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch for deploying pages. You need to add &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; into &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; to let &lt;code class=&quot;language-text&quot;&gt;gatbyjs&lt;/code&gt; know which repository to select.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    pathPrefix&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/github username&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;file: gatsby-config.js&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Next step is checkout your github repository to exisiting directory and deploy blog. Execute following commands to &lt;code class=&quot;language-text&quot;&gt;init&lt;/code&gt; git repository and add &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt; to your project.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;cd lumen
+git init
+git remote add origin https://github.com/your-user-name/your-user-name.github.io.git
+git fetch
+git branch master origin/master
+git checkout my-blog
+git add .
+git commit -m &lt;span class=&quot;token string&quot;&gt;&apos;first commit&apos;&lt;/span&gt;
+git push&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Here, I had choose &lt;code class=&quot;language-text&quot;&gt;my-blog&lt;/code&gt; branch for source because &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; will be used for deploying compiiled blog source.
+Bingo you are now ready to launch. 🚀 just hit following command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Then open &lt;a href=&quot;http://your-user-name.github.io/&quot;&gt;your-user-name.github.io&lt;/a&gt; and here we are, after hard work of one hour.
+Now you are thinking What about anyone want to comment on post? What about anyone want to subscribe to blog? I will write about both of them in my next blog keep in touch.&lt;/p&gt;
+&lt;p&gt;P.S. If you liked post and want subscribe for next post just enter your email into input at end of post and any suggestions and comments are welcomed. just put your thoughts into comment box and I will try my best to improve on it. Thank you. for more information navigate through official site of &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;gatsby&lt;/a&gt; Happy Exploring.&lt;/p&gt;</content:encoded></item></channel></rss>
