@@ -1,4 +1,224 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occassional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 03 Jul 2018 16:05:26 GMT</lastBuildDate><item><title><![CDATA[Improve Blogging With Feedback and Analytics]]></title><description><![CDATA[After creating blog, It will be meaningless If nobody comment it with ❤️ ❤️ ❤️ or 😍 😍 😍 , So Let some emojis to be flow around.]]></description><link>https://arjun-kava.github.io//posts/improve-blogging-with-feedback-and-analytics/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/improve-blogging-with-feedback-and-analytics/</guid><pubDate>Tue, 03 Jul 2018 16:04:34 GMT</pubDate><content:encoded>&lt;p&gt;After creating blog, It will be meaningless If nobody comment it with ❤️ ❤️ ❤️ or 😍 😍 😍, So Let some emojis to be flow around. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 25 Jul 2018 16:27:48 GMT</lastBuildDate><item><title><![CDATA[How To Create Successfull Blog In Hour]]></title><description><![CDATA[Want to start blog? Need simple process that can be completed in 60 minutes?]]></description><link>https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</guid><pubDate>Wed, 25 Jul 2018 16:26:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to start blog?
+Need simple process that can be completed in 60 minutes?&lt;/p&gt;
+&lt;p&gt;Starting a blog seems to hard but not really much harder, if you have right choice on tools. Today we are going to create a starter blog with comments and subscription, isn’t it amazing? yeah, let’s get start it.&lt;/p&gt;
+&lt;h3&gt;Assumptions&lt;/h3&gt;
+&lt;p&gt;I assume, You knew some basics about How &lt;code class=&quot;language-text&quot;&gt;reactjs&lt;/code&gt; works but if you don’t knew the basics start from &lt;a href=&quot;https://reactjs.org/tutorial/tutorial.html&quot;&gt;here&lt;/a&gt;. Please dont’t get too hard on it, just need to know basics of reactjs and structure of the app.&lt;/p&gt;
+&lt;h3&gt;Getting Started with Gatsby.js&lt;/h3&gt;
+&lt;p&gt;Install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; by executing following command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install --global gatsby-cli&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;above command will install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; globally which is going to helpul for createing our first blog. (Note: Node.js is required to install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt;)&lt;/p&gt;
+&lt;h3&gt;Select Starter&lt;/h3&gt;
+&lt;p&gt;Gatsby Community provides multiple starters for creating new blog, find out from &lt;a href=&quot;https://www.gatsbyjs.org/docs/gatsby-starters/&quot;&gt;here&lt;/a&gt;. I prefer to use &lt;a href=&quot;https://lumen.netlify.com/&quot;&gt;lumen starter&lt;/a&gt; by &lt;a href=&quot;https://github.com/alxshelepenok&quot;&gt;@Alexander Shelepenok&lt;/a&gt;. ❤️ Thank you man!&lt;/p&gt;
+&lt;h3&gt;install Starter&lt;/h3&gt;
+&lt;p&gt;Install lumen starter into your personal computer by executing following command from Command Prompt / Terminal whatever you prefer.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It will create directory named &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; and installs all dependencies in a single shot (impressed!). The project will have following directory structure&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;└── src
+    ├── assets
+    │   ├── fonts
+    │   │   └── fontello-771c82e0
+    │   │       ├── css
+    │   │       └── font
+    │   └── scss
+    │       ├── base
+    │       ├── mixins
+    │       └── pages
+    ├── components
+    │   ├── CategoryTemplateDetails
+    │   ├── Disqus
+    │   ├── Links
+    │   ├── Menu
+    │   ├── PageTemplateDetails
+    │   ├── Post
+    │   ├── PostTemplateDetails
+    │   ├── Sidebar
+    │   └── TagTemplateDetails
+    ├── layouts
+    ├── pages
+    │   ├── articles
+    │   │   ├── 2016-01-09---Perfecting-the-Art-of-Perfection
+    │   │   ├── 2016-01-12---The-Origins-of-Social-Stationery-Lettering
+    │   │   ├── 2016-02-02---A-Brief-History-of-Typography
+    │   │   ├── 2017-18-08---The-Birth-of-Movable-Type
+    │   │   └── 2017-19-08---Humane-Typography-in-the-Digital-Age
+    │   └── pages
+    │       ├── 2015-05-01---about
+    │       └── 2015-05-01---contact
+    └── templates
+└── gatsby-config.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;Run Project&lt;/h4&gt;
+&lt;p&gt;Open command prompt / Terminal and hit &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; from &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; directory. It will run our first blog via local server on &lt;a href=&quot;http://localhost:8000/&quot;&gt;localhost:8000&lt;/a&gt; url. 🎉 🎉 🎉
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 678px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.79646017699115%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABt0lEQVQoz2VSi47bIBD0//9ZpUpVGyl2znd5GYMT8AMMNn7hjqHJ5XojjBbvDjsDRNXp/eP0k5W806Ysy6qqjDFd12HaxhZsUEoJLuq6bpoGZZTSy+USKZQ3XLZtq1olUaN0qxFgbbQ0rez8Xlpr9YKwRbSsa5mdzr9/rOs6eszzzFhxPp+aOxH0XAqOOmzhnFs85geieXG3/JrufrXaDIMFGen7/XY4HI7H49tbmiRJmqaEEGguPSBkmiZURpgbqdjtzhiVUvZ2WJwz3dB1Njj2mg1kI1t5WGuDxggf/CI3jlPf91720khjZLP2rYOwZVmdWz2C5vGBCAvOBef8+RcVhGTx7s97vPtI0x5ulxlbOA9kP8lQr2QteBFsjOMwTXNV1dmVkG1cWZ6znNKcMkoLhlWOo356nitRgD49OiMhBCcZ2Tgkx8gJKbmAZ9D+99z3nbUD8NQjtR2sXcfBBTMDAjjfbEP5p+zAeSFunTNCyeVYFRkuBn1wXssSLnmdXz2/NnySc5Lt9/s4SeI4ZoxBani5mL7c83cyUEuNM1PeZHgbwiME4Ub/ef6Orp82AQ/MX/Es+wvpWx5JxEwi6wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;blog_layout.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
+        srcset=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-9476e.png 240w,
+/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-a94e0.png 480w,
+/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png 678w&quot;
+        sizes=&quot;(max-width: 678px) 100vw, 678px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;em&gt;Example of running lumen blog starter.&lt;/em&gt;
+Navigate through &lt;code class=&quot;language-text&quot;&gt;src/pages/articles&lt;/code&gt; where you can find blogs and their related images. Also you can just add new blogs and delete old ones.&lt;/p&gt;
+&lt;h3&gt;Edit Configuration&lt;/h3&gt;
+&lt;p&gt;find &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; from root directory and edit &lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;subtitle&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;author&lt;/code&gt; information, Here you go our blog is ready to deploy. You can change avatar by navigating through file &lt;code class=&quot;language-text&quot;&gt;src/pages/photo.jpg&lt;/code&gt; and just replace with your avtar.&lt;/p&gt;
+&lt;h3&gt;Deploy On Github Pages&lt;/h3&gt;
+&lt;p&gt;Now it might seems like what about deploying this blog? So we are going to deploy it on &lt;a href=&quot;https://github.com/&quot;&gt;Gihub&lt;/a&gt; using &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First of all create public repository with &lt;your user name&gt;.github.io. If you don’t have github account just open one first, then install gatsby community plugin called &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;. run following command to install it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;then add following &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script to &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public --branch master&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;file: package.json&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;why I had set branch as &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;? becuase github pages requires &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch for deploying pages. You need to add &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; into &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; to let &lt;code class=&quot;language-text&quot;&gt;gatbyjs&lt;/code&gt; know which repository to select.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    pathPrefix&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/github username&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;file: gatsby-config.js&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Next step is checkout your github repository to exisiting directory and deploy blog. Execute following commands to &lt;code class=&quot;language-text&quot;&gt;init&lt;/code&gt; git repository and add &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt; to your project.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;cd lumen
+git init
+git remote add origin https://github.com/your-user-name/your-user-name.github.io.git
+git fetch
+git branch master origin/master
+git checkout my-blog
+git add .
+git commit -m &lt;span class=&quot;token string&quot;&gt;&apos;first commit&apos;&lt;/span&gt;
+git push&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Here, I had choose &lt;code class=&quot;language-text&quot;&gt;my-blog&lt;/code&gt; branch for source because &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; will be used for deploying compiiled blog source.
+Bingo you are now ready to launch. 🚀 just hit following command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Then open &lt;a href=&quot;http://your-user-name.github.io/&quot;&gt;your-user-name.github.io&lt;/a&gt; and here we are, after hard work of one hour.
+Now you are thinking What about anyone want to comment on post? What about anyone want to subscribe to blog? I will write about both of them in my next blog keep in touch.&lt;/p&gt;
+&lt;p&gt;P.S. If you liked post and want subscribe for next post just enter your email into input at end of post and any suggestions and comments are welcomed. just put your thoughts into comment box and I will try my best to improve on it. Thank you. for more information navigate through official site of &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;gatsby&lt;/a&gt; Happy Exploring.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Prove Simplification of Artificial Neural Network]]></title><description><![CDATA[It's much easier than you think.]]></description><link>https://arjun-kava.github.io//posts/prove-simplification-of-neural-network/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/prove-simplification-of-neural-network/</guid><pubDate>Fri, 20 Jul 2018 13:44:50 GMT</pubDate><content:encoded>&lt;p&gt;In last couple decades &lt;em&gt;Artificial Intelligence&lt;/em&gt; had made a great progress to solve day to day problems. We even didn’t knew how much AI used in our daily life. It is just everywhere finding a product from Amazon, searching something on Google even tagging your buddy on Facebook.&lt;/p&gt;
+&lt;p&gt;But what kind of work, &lt;em&gt;Scientists&lt;/em&gt; are doing over the last couple of decades and many of them trying to replicate &lt;em&gt;Human Brain&lt;/em&gt;! How? With the help of deep learnings and neural network which behaves like human brain. How exactly Deep Learning and Neural Network works? Lets take a closer look.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Road Map&lt;/h3&gt;
+&lt;p&gt;Have you ever think How robot recognize Cat or Dog standing in front of it? No! It’s time to find it out otherwise Robot will take our job to make pets happier then ever soon.
+&lt;img src=&quot;/dog-cat-3fea3d1cf02c617d77b4b6bf9449ed55.gif&quot; alt=&quot;dog-cat.gif&quot;&gt;
+Image Source: &lt;a href=&quot;https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8&quot;&gt;becominghuman.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In Today’s post we will learn, How science of &lt;em&gt;Deep Learning&lt;/em&gt; have made it possible to recognize day to day life entities and How it simulates procedure followed by Human Brain. isn’t it exiting? No! Let me make it one.&lt;/p&gt;
+&lt;h3&gt;How Does our 1,400 grams head differs from Deep Learning?&lt;/h3&gt;
+&lt;p&gt;Human brain has billions of cells called &lt;em&gt;Neurons&lt;/em&gt;. Each neuron is made of &lt;em&gt;Cell Body&lt;/em&gt;(i.e. Central Unit), &lt;em&gt;Dendrites&lt;/em&gt;(i.e. Cell’s Input) and &lt;em&gt;Axo&lt;/em&gt;n(i.e. Cell’s Output). &lt;/p&gt;
+&lt;p&gt;At each neuron, It receives signal from other neurons. If the incoming signal have high electrical pulse for a certain period of time, It send high electrical pulse into terminals and These Terminals connected to other Dendrites of neurons in network.&lt;/p&gt;
+&lt;p&gt;As we learn new things these neurons increases. Every action done by human and also though generated by our brain is somehow dependent on series of &lt;em&gt;Neuron Activations&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-4d5c7.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 731px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.804377564979475%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd6KQyg//8QAGBAAAgMAAAAAAAAAAAAAAAAAABABAhH/2gAIAQEAAQUC1yVX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhABAAIDAQAAAAAAAAAAAAAAAQAQETFxIf/aAAgBAQABPyHaLhewX2mj2v/aAAwDAQACAAMAAAAQM8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMRCB/9oACAEBAAE/EKtSn7FSPRsU4CmjGZFO5NI+P//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Biological-vs-artificial-neuron.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-4d5c7.jpeg&quot;
+        srcset=&quot;/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-8e303.jpeg 240w,
+/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-a40b9.jpeg 480w,
+/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-4d5c7.jpeg 731w&quot;
+        sizes=&quot;(max-width: 731px) 100vw, 731px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://msatechnosoft.in/blog/tech-blogs/artificial-neural-network-types-feed-forward-feedback-structure-perceptron-machine-learning-applications&quot;&gt;msatechnosoft.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;While on other hand, &lt;em&gt;ANN(Artificial Neural Network)&lt;/em&gt; is simulation of same concept. ANN have &lt;em&gt;Input Layers(i.e. Dendrites)&lt;/em&gt;, &lt;em&gt;Middle Hidden Layers(i.e. Cell Body)&lt;/em&gt; and &lt;em&gt;Output Layes(i.e. Axon)&lt;/em&gt;. Information are feed into the network via Input Layer, Which &lt;em&gt;triggers some hidden units&lt;/em&gt; which flows from left to right. Inputs are &lt;em&gt;multiplied the weights&lt;/em&gt; travels along. Every Hidden layer add some value. If Sum is more than a certain &lt;em&gt;threshold&lt;/em&gt; value, the Hidden Node fires and &lt;em&gt;triggers next connected node of network&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For the neural network to learn, &lt;em&gt;continuous feedback&lt;/em&gt; needs to be involved. As children learn by being told what is right or wrong, Neural Network learn things exactly the same way by feedback process called &lt;em&gt;Backpropogation&lt;/em&gt;(will talk about it more in next posts). This procedure involves comparison of the output produce and output meant to be be produce.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Learning Process&lt;/em&gt; of Neural Network is defines each and every feature of particular object and set weights of network on basis of actual and intended output&lt;/p&gt;
+&lt;h3&gt;Foot Notes&lt;/h3&gt;
+&lt;p&gt;There are lots of amazing application of Neural Network such as Image Classification, Regression, Segmentation, Generation and lots more. We are living in era where things are automating as we moves forward to the future.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/funny-55869954d5fbe61dcc32f74453fc0bfd-c67c1.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABVzyWK5OIf//EABoQAQEAAgMAAAAAAAAAAAAAAAECAAMREiL/2gAIAQEAAQUCmeTw5HRNrc5No1bD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEREjH/2gAIAQMBAT8BlPCx/8QAFhEBAQEAAAAAAAAAAAAAAAAAABJh/9oACAECAQE/AUa//8QAHBAAAgICAwAAAAAAAAAAAAAAAAExQRARIlGB/9oACAEBAAY/Am3VHRLXouWNSf/EABsQAAIDAQEBAAAAAAAAAAAAAAABESExQVFh/9oACAEBAAE/IVSjwvRyU2kFq7OIyjnKNA7Jrj7Z/9oADAMBAAIAAwAAABDQH//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESEx/9oACAEDAQE/EEWRGnL/xAAYEQEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxCkdjZ6n//EAB0QAQADAQACAwAAAAAAAAAAAAEAESFxMUGBweH/2gAIAQEAAT8QX0lAG/iMFesA2+a+oUeiEHz2MgkxQiHYEtDGNJxjuwodh3jP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;funny.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/funny-55869954d5fbe61dcc32f74453fc0bfd-d564d.jpeg&quot;
+        srcset=&quot;/static/funny-55869954d5fbe61dcc32f74453fc0bfd-865fd.jpeg 240w,
+/static/funny-55869954d5fbe61dcc32f74453fc0bfd-d40a0.jpeg 480w,
+/static/funny-55869954d5fbe61dcc32f74453fc0bfd-d564d.jpeg 960w,
+/static/funny-55869954d5fbe61dcc32f74453fc0bfd-c67c1.jpeg 1440w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://hackernoon.com/learning-ai-if-you-suck-at-math-p5-deep-learning-and-convolutional-neural-nets-in-plain-english-cda79679bbe3&quot;&gt;hackernoon.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;P.S. : I will post more about implementations, libraries and framework used for Deep Learning soon, meanwhile if you have any queries regarding this post or deep learning free to comment below and also to DM me. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Improve Blogging With Feedback and Analytics]]></title><description><![CDATA[After creating blog, It will be meaningless If nobody comment it with ❤️ ❤️ ❤️ or 😍 😍 😍 , So Let some emojis to be flow around.]]></description><link>https://arjun-kava.github.io//posts/improve-blogging-with-feedback-and-analytics/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/improve-blogging-with-feedback-and-analytics/</guid><pubDate>Tue, 03 Jul 2018 16:04:34 GMT</pubDate><content:encoded>&lt;p&gt;After creating blog, It will be meaningless If nobody comment it with ❤️ ❤️ ❤️ or 😍 😍 😍, So Let some emojis to be flow around. &lt;/p&gt;
 &lt;p&gt;If you have not read my first blog, Please ready it first &lt;a href=&quot;https://arjun-kava.github.io/posts/how-to-create-successfull-blog-in-hour/&quot;&gt;how-to-create-successfull-blog-in-hour&lt;/a&gt;. Ignore if you have already read it.&lt;/p&gt;
 &lt;p&gt;This blog is all about improvements on How to get user feedback through comments, How to engage with them with subscriptions and Analyze traffic.&lt;/p&gt;
 &lt;p&gt;First of all Hats off to React Community and Gatsby Community. All community memebers are very active and providing variety of plugins for developers. Let’s start by adding multiple plugins integration for comments, subscriptions and trafiic analytics.&lt;/p&gt;
@@ -346,138 +566,4 @@
       &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;run npm deploy&lt;/code&gt;&lt;/pre&gt;
       &lt;/div&gt;
 &lt;p&gt;P.S. You can get reference of all these code on my blog repository &lt;a href=&quot;https://github.com/arjun-kava/arjun-kava.github.io&quot;&gt;arjun-kava.github.io&lt;/a&gt; under &lt;code class=&quot;language-text&quot;&gt;gatsby&lt;/code&gt; branch. If you like post and want next in your inbox hit subscription button with your email. Also give your opinion about post in below comment box. Happy Exploring.&lt;/p&gt;
-&lt;p&gt;As a deep learning engineer from today onwards I am going to write more about my learning journey of Computer Vision, Deep Learning and related libraries. Stay In Touch.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How To Create Successfull Blog In Hour]]></title><description><![CDATA[Want to start blog? Need simple process that can be completed in 60 minutes?]]></description><link>https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</guid><pubDate>Thu, 28 Jun 2018 13:22:34 GMT</pubDate><content:encoded>&lt;p&gt;Want to start blog?
-Need simple process that can be completed in 60 minutes?&lt;/p&gt;
-&lt;p&gt;Starting a blog seems to hard but not really much harder, if you have right choice on tools. Today we are going to create a starter blog with comments and subscription, isn’t it amazing? yeah, let’s get start it.&lt;/p&gt;
-&lt;h3&gt;Assumptions&lt;/h3&gt;
-&lt;p&gt;I assume, You knew some basics about How &lt;code class=&quot;language-text&quot;&gt;reactjs&lt;/code&gt; works but if you don’t knew the basics start from &lt;a href=&quot;https://reactjs.org/tutorial/tutorial.html&quot;&gt;here&lt;/a&gt;. Please dont’t get too hard on it, just need to know basics of reactjs and structure of the app.&lt;/p&gt;
-&lt;h3&gt;Getting Started with Gatsby.js&lt;/h3&gt;
-&lt;p&gt;Install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; by executing following command&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install --global gatsby-cli&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;above command will install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; globally which is going to helpul for createing our first blog. (Note: Node.js is required to install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt;)&lt;/p&gt;
-&lt;h3&gt;Select Starter&lt;/h3&gt;
-&lt;p&gt;Gatsby Community provides multiple starters for creating new blog, find out from &lt;a href=&quot;https://www.gatsbyjs.org/docs/gatsby-starters/&quot;&gt;here&lt;/a&gt;. I prefer to use &lt;a href=&quot;https://lumen.netlify.com/&quot;&gt;lumen starter&lt;/a&gt; by &lt;a href=&quot;https://github.com/alxshelepenok&quot;&gt;@Alexander Shelepenok&lt;/a&gt;. ❤️ Thank you man!&lt;/p&gt;
-&lt;h3&gt;install Starter&lt;/h3&gt;
-&lt;p&gt;Install lumen starter into your personal computer by executing following command from Command Prompt / Terminal whatever you prefer.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;It will create directory named &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; and installs all dependencies in a single shot (impressed!). The project will have following directory structure&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;└── src
-    ├── assets
-    │   ├── fonts
-    │   │   └── fontello-771c82e0
-    │   │       ├── css
-    │   │       └── font
-    │   └── scss
-    │       ├── base
-    │       ├── mixins
-    │       └── pages
-    ├── components
-    │   ├── CategoryTemplateDetails
-    │   ├── Disqus
-    │   ├── Links
-    │   ├── Menu
-    │   ├── PageTemplateDetails
-    │   ├── Post
-    │   ├── PostTemplateDetails
-    │   ├── Sidebar
-    │   └── TagTemplateDetails
-    ├── layouts
-    ├── pages
-    │   ├── articles
-    │   │   ├── 2016-01-09---Perfecting-the-Art-of-Perfection
-    │   │   ├── 2016-01-12---The-Origins-of-Social-Stationery-Lettering
-    │   │   ├── 2016-02-02---A-Brief-History-of-Typography
-    │   │   ├── 2017-18-08---The-Birth-of-Movable-Type
-    │   │   └── 2017-19-08---Humane-Typography-in-the-Digital-Age
-    │   └── pages
-    │       ├── 2015-05-01---about
-    │       └── 2015-05-01---contact
-    └── templates
-└── gatsby-config.js&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;h4&gt;Run Project&lt;/h4&gt;
-&lt;p&gt;Open command prompt / Terminal and hit &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; from &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; directory. It will run our first blog via local server on &lt;a href=&quot;http://localhost:8000/&quot;&gt;localhost:8000&lt;/a&gt; url. 🎉 🎉 🎉
-
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 678px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 70.79646017699115%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABt0lEQVQoz2VSi47bIBD0//9ZpUpVGyl2znd5GYMT8AMMNn7hjqHJ5XojjBbvDjsDRNXp/eP0k5W806Ysy6qqjDFd12HaxhZsUEoJLuq6bpoGZZTSy+USKZQ3XLZtq1olUaN0qxFgbbQ0rez8Xlpr9YKwRbSsa5mdzr9/rOs6eszzzFhxPp+aOxH0XAqOOmzhnFs85geieXG3/JrufrXaDIMFGen7/XY4HI7H49tbmiRJmqaEEGguPSBkmiZURpgbqdjtzhiVUvZ2WJwz3dB1Njj2mg1kI1t5WGuDxggf/CI3jlPf91720khjZLP2rYOwZVmdWz2C5vGBCAvOBef8+RcVhGTx7s97vPtI0x5ulxlbOA9kP8lQr2QteBFsjOMwTXNV1dmVkG1cWZ6znNKcMkoLhlWOo356nitRgD49OiMhBCcZ2Tgkx8gJKbmAZ9D+99z3nbUD8NQjtR2sXcfBBTMDAjjfbEP5p+zAeSFunTNCyeVYFRkuBn1wXssSLnmdXz2/NnySc5Lt9/s4SeI4ZoxBani5mL7c83cyUEuNM1PeZHgbwiME4Ub/ef6Orp82AQ/MX/Es+wvpWx5JxEwi6wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;blog_layout.png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
-        srcset=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-9476e.png 240w,
-/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-a94e0.png 480w,
-/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png 678w&quot;
-        sizes=&quot;(max-width: 678px) 100vw, 678px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
-&lt;em&gt;Example of running lumen blog starter.&lt;/em&gt;
-Navigate through &lt;code class=&quot;language-text&quot;&gt;src/pages/articles&lt;/code&gt; where you can find blogs and their related images. Also you can just add new blogs and delete old ones.&lt;/p&gt;
-&lt;h3&gt;Edit Configuration&lt;/h3&gt;
-&lt;p&gt;find &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; from root directory and edit &lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;subtitle&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;author&lt;/code&gt; information, Here you go our blog is ready to deploy. You can change avatar by navigating through file &lt;code class=&quot;language-text&quot;&gt;src/pages/photo.jpg&lt;/code&gt; and just replace with your avtar.&lt;/p&gt;
-&lt;h3&gt;Deploy On Github Pages&lt;/h3&gt;
-&lt;p&gt;Now it might seems like what about deploying this blog? So we are going to deploy it on &lt;a href=&quot;https://github.com/&quot;&gt;Gihub&lt;/a&gt; using &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;First of all create public repository with &lt;your user name&gt;.github.io. If you don’t have github account just open one first, then install gatsby community plugin called &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;. run following command to install it.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;then add following &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script to &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public --branch master&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;file: package.json&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;why I had set branch as &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;? becuase github pages requires &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch for deploying pages. You need to add &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; into &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; to let &lt;code class=&quot;language-text&quot;&gt;gatbyjs&lt;/code&gt; know which repository to select.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    pathPrefix&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/github username&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;file: gatsby-config.js&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Next step is checkout your github repository to exisiting directory and deploy blog. Execute following commands to &lt;code class=&quot;language-text&quot;&gt;init&lt;/code&gt; git repository and add &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt; to your project.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;cd lumen
-git init
-git remote add origin https://github.com/your-user-name/your-user-name.github.io.git
-git fetch
-git branch master origin/master
-git checkout my-blog
-git add .
-git commit -m &lt;span class=&quot;token string&quot;&gt;&apos;first commit&apos;&lt;/span&gt;
-git push&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Here, I had choose &lt;code class=&quot;language-text&quot;&gt;my-blog&lt;/code&gt; branch for source because &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; will be used for deploying compiiled blog source.
-Bingo you are now ready to launch. 🚀 just hit following command.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;p&gt;Then open &lt;a href=&quot;http://your-user-name.github.io/&quot;&gt;your-user-name.github.io&lt;/a&gt; and here we are, after hard work of one hour.
-Now you are thinking What about anyone want to comment on post? What about anyone want to subscribe to blog? I will write about both of them in my next blog keep in touch.&lt;/p&gt;
-&lt;p&gt;P.S. If you liked post and want subscribe for next post just enter your email into input at end of post and any suggestions and comments are welcomed. just put your thoughts into comment box and I will try my best to improve on it. Thank you. for more information navigate through official site of &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;gatsby&lt;/a&gt; Happy Exploring.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;As a deep learning engineer from today onwards I am going to write more about my learning journey of Computer Vision, Deep Learning and related libraries. Stay In Touch.&lt;/p&gt;</content:encoded></item></channel></rss>
