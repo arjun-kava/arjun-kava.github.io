@@ -1,6 +1,6 @@
 ---
 title: "How To Create Successfull Blog In Hour"
-date: "2018-06-28T13:22:34.096Z"
+date: "2018-07-25T16:26:00.844Z"
 layout: post
 draft: false
 path: "/posts/how-to-create-successfull-blog-in-hour/"

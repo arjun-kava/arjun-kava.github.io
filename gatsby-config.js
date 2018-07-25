@@ -3,7 +3,7 @@ module.exports = {
     pathPrefix: "arjun-kava",
     url: 'https://arjun-kava.github.io/',
     title: 'Blog by Arjun Kava',
-    subtitle: `I am a tireless seeker of knowledge, occassional purveyor of wisdom and also, coincidentally, a deep learning engineer.`,
+    subtitle: `I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.`,
     copyright: '© All rights reserved.',
     disqusShortname: 'arjun-kava',
     menu: [
