@@ -1,4 +1,212 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 25 Jul 2018 16:27:48 GMT</lastBuildDate><item><title><![CDATA[How To Create Successfull Blog In Hour]]></title><description><![CDATA[Want to start blog? Need simple process that can be completed in 60 minutes?]]></description><link>https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</guid><pubDate>Wed, 25 Jul 2018 16:26:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to start blog?
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 28 Jul 2018 15:10:23 GMT</lastBuildDate><item><title><![CDATA[Write, Work, Read and Repeat]]></title><description><![CDATA[“Perhaps when we find ourselves wanting everything, it is because we are dangerously close to wanting nothing.” ― Sylvia Plath]]></description><link>https://arjun-kava.github.io//posts/write-work-read-and-repeat/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/write-work-read-and-repeat/</guid><pubDate>Sat, 28 Jul 2018 14:25:02 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“Perhaps when we find ourselves wanting everything, it is because we are dangerously close to wanting nothing.” ― Sylvia Plath&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Today’s article is all about managing yourself and follows that &lt;code class=&quot;language-text&quot;&gt;long-term goal&lt;/code&gt; sheet flows through our mind every day but still needs to move from &lt;code class=&quot;language-text&quot;&gt;paper to production&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/productivity-bc0551d63f518d5caf5d60eb52010504.gif&quot; alt=&quot;productivity.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Roadmap&lt;/h3&gt;
+&lt;p&gt;Sometimes we are too much worried about work, family, and relations while we forgot to explore our self. I have been working on my productivity during the last six months and I found a concept that made me more &lt;code class=&quot;language-text&quot;&gt;productive&lt;/code&gt; than ever.&lt;/p&gt;
+&lt;p&gt;Before these six months, I was the &lt;code class=&quot;language-text&quot;&gt;dump&lt;/code&gt;. I even didn’t know the basic criteria of time management and productivity, So How The Beast inside me is more active now? Let’s take a closer look at my experience. &lt;/p&gt;
+&lt;h4&gt;The article is divided into the following major parts:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Rule of Productivity&lt;/li&gt;
+&lt;li&gt;Writing&lt;/li&gt;
+&lt;li&gt;Working&lt;/li&gt;
+&lt;li&gt;Reading&lt;/li&gt;
+&lt;li&gt;Repeat&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;The Golden Rule Of Productivity&lt;/h2&gt;
+&lt;p&gt;There is a simple rule of productivity but, Do you know most of the people struggles to implement simple rules! Why? because They are so simple.&lt;/p&gt;
+&lt;h4&gt;The Golden Rule&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Write(20), Work(60), Read(20).&lt;/li&gt;
+&lt;li&gt;Repeat Rule Number 1 Every day.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let me explain above rules in much more deeper meaning. The Earth requires 24 hours to do a spin that’s why we have &lt;code class=&quot;language-text&quot;&gt;24 hours&lt;/code&gt; in a normal day. The whole day has a &lt;code class=&quot;language-text&quot;&gt;16:8 hour&lt;/code&gt; ratio means &lt;code class=&quot;language-text&quot;&gt;16 hours without sleep&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;8 with sleep&lt;/code&gt;(worst case). &lt;/p&gt;
+&lt;p&gt;I am more interested in these 16 hours where if we minus 2 hours from it for getting shower, breakfast, lunch, dinner still we have 14 hours to manage daily work life. Now I am focusing on that &lt;strong&gt;Golden 14 Hours&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Higher Productivity is dependent upon two major factors &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Time &lt;/li&gt;
+&lt;li&gt;Energy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We have that golden 14 hours so, I am not more concerned about &lt;code class=&quot;language-text&quot;&gt;Time&lt;/code&gt; but &lt;code class=&quot;language-text&quot;&gt;Energy&lt;/code&gt; might worry me more than anything. That’s why Rule Number 1 is more generous for our perspective. &lt;/p&gt;
+&lt;p&gt;I have prioritized every word with weights. From left to right energy as per levels go down, meaning We need more energy for writing, lesser than it for day to day job and much less for reading. On this note I had scheduled my golden 14 hours into 2.8:8.4:2.8 hours ratio for Writing, Working and Reading respectively, Bingo I am done with energy also.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Writing&lt;/h2&gt;
+&lt;p&gt;Writing has more energy consumption than the other two(I am taking mental energy as a unit). Here, Writing doesn’t mean a job as a writer but writing for yourself.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-bea9a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAUsZPl4ScF//xAAaEAACAgMAAAAAAAAAAAAAAAABAgMSITEy/9oACAEBAAEFArSsowshSyabmUm//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhABAAEFAAAAAAAAAAAAAAAAAQATIEFCUf/aAAgBAQAGPwKk52gcsZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMUH/2gAIAQEAAT8hpxp8MlkW6ArDbGa3szcnVT//2gAMAwEAAgADAAAAEJgf/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EDV//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAQEBAAAAAAAAAAAAAQARMSFRQXH/2gAIAQEAAT8QWS5TLXx/YEwxFqGx+Ma9qJr5J0Y6uDWxF732f//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;writing.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-d564d.jpg&quot;
+        srcset=&quot;/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-865fd.jpg 240w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-d40a0.jpg 480w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-d564d.jpg 960w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-c67c1.jpg 1440w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-667be.jpg 1920w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-bea9a.jpg 2560w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;http://www.guoguiyan.com/writing-wallpapers.html&quot;&gt;guoguiyan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In other words, sharing your knowledge with the community and of course people around you. It can be anything writing a Journal, Blog, Answer some questions on Quora or Reddit, Help people to resolve their Bugs on Github etc. &lt;/p&gt;
+&lt;p&gt;It does make you more proactive and gives you much deeper understanding of the topic written. For me, It is a new passion while exploring new learnings and also my resolution for this year.&lt;/p&gt;
+&lt;p&gt;I woke up early 5:30 AM in the morning to just write these stuff. I put 15 min timers for two and half hours to be more productive on my writings and paying more attention to write rather than being disturbed by other stuff.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Working&lt;/h2&gt;
+&lt;p&gt;Most amazing part of life is &lt;code class=&quot;language-text&quot;&gt;working for a dream&lt;/code&gt;. With the highest rank in a list also more responsibility lies here. I am very serious about spending these hours. &lt;/p&gt;
+&lt;p&gt;First of all, I wrote tasks for a day and &lt;code class=&quot;language-text&quot;&gt;prioritize&lt;/code&gt; on basis of importance and of course how much time and energy requires for each. I prefer to use &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt; which saves most of my time.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-667be.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWJQpIP//EABoQAAICAwAAAAAAAAAAAAAAAAECACEDEiL/2gAIAQEAAQUCXHRAEZbU0x62M//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAEQICH/2gAIAQEABj8Cg4v/xAAYEAEBAQEBAAAAAAAAAAAAAAABABExQf/aAAgBAQABPyEp2AyHxKYt9A4S1//aAAwDAQACAAMAAAAQz/8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERMSFBgf/aAAgBAQABPxB1G1ReoIdd6vh4TDHHDGUJVEB8yH//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;working.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-d564d.jpg&quot;
+        srcset=&quot;/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-865fd.jpg 240w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-d40a0.jpg 480w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-d564d.jpg 960w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-c67c1.jpg 1440w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-667be.jpg 1920w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://wallpaperwire.com/funny-working-man-nice-wallpaper/&quot;&gt;wallpaperwire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then I decide exact durations for each task but some of them are repetitive for each day with fix bound durations. I set &lt;code class=&quot;language-text&quot;&gt;hour-to-hour timers&lt;/code&gt; for reminding me to pay more attention to task rather than being disturbed by Notification, Mail or anything. After completing a single task I check messages, emails and then moves to the next one.&lt;/p&gt;
+&lt;p&gt;As my energy levels go down less task remains on my hand. At the end of the day I &lt;code class=&quot;language-text&quot;&gt;review today&amp;#39;s work&lt;/code&gt; and find out anything missing at the moment.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.” ― George R.R. Martin, A Dance with Dragons&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I have a great passion for reading and also written a huge list of &lt;code class=&quot;language-text&quot;&gt;a wish to read books&lt;/code&gt;. Back to the topic, Here reading means reading books, give time to learn new things, watch a course on &lt;a href=&quot;https://www.coursera.org/&quot;&gt;Coursera&lt;/a&gt; more generous learning something.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/reading-51f49a80d041ef409020af30a3238865-667be.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAENZayMkn//xAAZEAEAAgMAAAAAAAAAAAAAAAABAAIQERP/2gAIAQEAAQUChVc9mWdv/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQIBAT8BNxf/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQEABj8CMnEjlH//xAAaEAADAQADAAAAAAAAAAAAAAAAARExEEFh/9oACAEBAAE/IRC2lnGGMCXU0XdL4P/aAAwDAQACAAMAAAAQVB//xAAWEQEBAQAAAAAAAAAAAAAAAAABEEH/2gAIAQMBAT8QBs//xAAWEQADAAAAAAAAAAAAAAAAAAAQIVH/2gAIAQIBAT8QVQ//xAAdEAACAQQDAAAAAAAAAAAAAAABEQAhMUFREGGx/9oACAEBAAE/EIqiuqOHcQwMbiTWWSlBrqH4+cPZ/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;reading.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/reading-51f49a80d041ef409020af30a3238865-d564d.jpeg&quot;
+        srcset=&quot;/static/reading-51f49a80d041ef409020af30a3238865-865fd.jpeg 240w,
+/static/reading-51f49a80d041ef409020af30a3238865-d40a0.jpeg 480w,
+/static/reading-51f49a80d041ef409020af30a3238865-d564d.jpeg 960w,
+/static/reading-51f49a80d041ef409020af30a3238865-c67c1.jpeg 1440w,
+/static/reading-51f49a80d041ef409020af30a3238865-667be.jpeg 1920w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;http://tkpurwo.com/reading-desktop-wallpaper/reading-desktop-wallpaper-inspirational-funny-image-free-hd-wallpapers-page-0/&quot;&gt;tkpurwo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After the struggle of six months, I found precisely that reading has the most spectacular effect on my productivity, mindset, and everything I thought. After reading these books I have profound my maturity on another level which helped me to take the hardest decisions of my life.&lt;/p&gt;
+&lt;p&gt;I generally prefer to read books on a topic where I struggled more such as &lt;code class=&quot;language-text&quot;&gt;Rich Dad Poor Dad&lt;/code&gt;(the struggle of saving money), &lt;code class=&quot;language-text&quot;&gt;Zero to One&lt;/code&gt;(the struggle of starting startup), &lt;code class=&quot;language-text&quot;&gt;How to Influence People&lt;/code&gt;(the struggle for selling something).&lt;/p&gt;
+&lt;p&gt;I also read with my friend named &lt;code class=&quot;language-text&quot;&gt;&amp;quot;Little Yellow Marker&amp;quot;&lt;/code&gt; for marking lines which strike most to my head. This method is very helpful because while reading the chapter second time I just have to look at major marked portions and My mind flows with everything I had read.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Repeating&lt;/h2&gt;
+&lt;p&gt;Generally, I am working at the office in weekends which gave me another one and a half day to focus on writing, reading and of course, planning more stuff as well as review the whole week activities.&lt;/p&gt;
+&lt;p&gt;Nowadays I focus on review my self on a weekly basis which helped me a lot to &lt;code class=&quot;language-text&quot;&gt;correct my past mistakes&lt;/code&gt; in a future work.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-8bea8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABKklEQVQoz51SS07DMBTMiVBbiKMacQU2JaTAklWF2JQ6bNw4vQCCpICEhIo4GBTyWTuJ46Zd8dwGSCK6QRpZ9vjNm5GfNezmNUykQoPcwmu1a1gd3nU4diulaiPxeMPn1RbaT0XXSdF10CHRLomRHcCxdCv5GK50O8AsVb0azlCBKLf8hektDJogMseuwCzTyRzR5PRhefa4OmBc6WvOqj2Hxta0OH8Sly/C8qVOBSJvAJ1mJ/dF7za/mMnBbLUzDPdZsjGviuNjvxi+isGzMD0QZ2vx+x7N+tOi78uju/zwZtkhIa6Jv2MblJteATDGCaTFDGKD/4exjg0AD9SMXZqnyP5sj8L2KILN74Mx4IPWVdQahcCrB5vIv0el5tEYSTnCBG8d1b8+yRcWBVEIN0sQ1gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;repeat.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-c83f1.png&quot;
+        srcset=&quot;/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-569e3.png 240w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-93400.png 480w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-c83f1.png 960w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-23e13.png 1440w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-10d8f.png 1920w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-8bea8.png 2048w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://nozbe.com/blog/repeating_tasks/&quot;&gt;nozbe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I change the above ratio sometimes due to &lt;code class=&quot;language-text&quot;&gt;the hard deadline&lt;/code&gt; and some more important stuff but I think maintaining average is the best part of my journey.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Foot Notes&lt;/h2&gt;
+&lt;p&gt;I am still learning about productivity and going to change my schedule as per my need. If you feel I have to change my schedule which can make me more productive. Please comment below your thoughts about it.&lt;/p&gt;
+&lt;p&gt;I am managing &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt; boards for Writing, Reading, Tasking, New Year Resolution, for Everything I want to plan. I will write “How to plan those boards” in next articles. till then Happy Exploring.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How To Create Successfull Blog In Hour]]></title><description><![CDATA[Want to start blog? Need simple process that can be completed in 60 minutes?]]></description><link>https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</guid><pubDate>Wed, 25 Jul 2018 16:26:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to start blog?
 Need simple process that can be completed in 60 minutes?&lt;/p&gt;
 &lt;p&gt;Starting a blog seems to hard but not really much harder, if you have right choice on tools. Today we are going to create a starter blog with comments and subscription, isn’t it amazing? yeah, let’s get start it.&lt;/p&gt;
 &lt;h3&gt;Assumptions&lt;/h3&gt;

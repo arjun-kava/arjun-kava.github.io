@@ -13,20 +13,24 @@
       "path---tags-mailchimp-ab2132051664af6dd53e.js.map"
     ],
     "path---categories": [
-      "path---categories-5c38f33b48cb80b862c0.js",
-      "path---categories-5c38f33b48cb80b862c0.js.map"
+      "path---categories-bc1d4e565b9b15b347f0.js",
+      "path---categories-bc1d4e565b9b15b347f0.js.map"
     ],
     "component---src-pages-tags-jsx": [
       "component---src-pages-tags-jsx-e1306667a369780294ff.js",
       "component---src-pages-tags-jsx-e1306667a369780294ff.js.map"
     ],
     "path---tags": [
-      "path---tags-7896334938a76c87fcd4.js",
-      "path---tags-7896334938a76c87fcd4.js.map"
+      "path---tags-bbf0681e31b0811971cf.js",
+      "path---tags-bbf0681e31b0811971cf.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---posts-write-work-read-and-repeat": [
+      "path---posts-write-work-read-and-repeat-f7a7465e9459e202fd1c.js",
+      "path---posts-write-work-read-and-repeat-f7a7465e9459e202fd1c.js.map"
     ],
     "path---tags-javascript": [
       "path---tags-javascript-23890055828c661473b4.js",
@@ -73,8 +77,8 @@
       "component---src-pages-categories-jsx-dc892dc56898ecd4183e.js.map"
     ],
     "path---index": [
-      "path---index-c8d1515387b2bb78eb12.js",
-      "path---index-c8d1515387b2bb78eb12.js.map"
+      "path---index-1c21095b60a77e584cd6.js",
+      "path---index-1c21095b60a77e584cd6.js.map"
     ],
     "path---tags-neural-network": [
       "path---tags-neural-network-f785a04be60a8c97938c.js",
@@ -115,8 +119,8 @@
       "path---posts-prove-simplification-of-neural-network-e900c3d5ced443c78c4d.js.map"
     ],
     "app": [
-      "app-776623d0f034b7fd6730.js",
-      "app-776623d0f034b7fd6730.js.map"
+      "app-eb2d81ea93821aeced50.js",
+      "app-eb2d81ea93821aeced50.js.map"
     ],
     "path---tags-google-analytics": [
       "path---tags-google-analytics-86301b0812a10d689afd.js",
@@ -131,8 +135,12 @@
       "path---404-49b743b8dd1acfbd2cb4.js.map"
     ],
     "path---tags-deep-learning": [
-      "path---tags-deep-learning-b6f9b1f5b623a337fe35.js",
-      "path---tags-deep-learning-b6f9b1f5b623a337fe35.js.map"
+      "path---tags-deep-learning-70e788e16b666cf8189b.js",
+      "path---tags-deep-learning-70e788e16b666cf8189b.js.map"
+    ],
+    "path---categories-productivity": [
+      "path---categories-productivity-819b5d79cdf1fe3c28ac.js",
+      "path---categories-productivity-819b5d79cdf1fe3c28ac.js.map"
     ]
   }
 }
