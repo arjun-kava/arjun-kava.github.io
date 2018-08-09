@@ -4,7 +4,7 @@ import moment from 'moment';
 import Disqus from '../Disqus/Disqus';
 import Subscribe from '../Subscribe';
 import './style.scss';
-
+import "katex/dist/katex.min.css"
 class PostTemplateDetails extends React.Component {
   render() {
     const { subtitle, author } = this.props.data.site.siteMetadata;

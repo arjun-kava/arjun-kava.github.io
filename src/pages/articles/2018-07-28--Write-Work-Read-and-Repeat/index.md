@@ -6,7 +6,10 @@ draft: false
 path: "/posts/write-work-read-and-repeat/"
 category: "Productivity"
 tags:
-  - "deep learning"
+  - "productivity"
+  - "rea"
+  - "work"
+  - "trello"
 description: "“Perhaps when we find ourselves wanting everything, it is because we are dangerously close to wanting nothing.” ― Sylvia Plath"
 ---
 > “Perhaps when we find ourselves wanting everything, it is because we are dangerously close to wanting nothing.” ― Sylvia Plath
