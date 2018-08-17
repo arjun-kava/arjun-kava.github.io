@@ -1,4 +1,436 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 09 Aug 2018 16:20:31 GMT</lastBuildDate><item><title><![CDATA[That's not enough, We have to go deeper]]></title><description><![CDATA[“Life is really simple, but we insist on making it complicated.”  ― Confucius]]></description><link>https://arjun-kava.github.io//posts/thats-not-enough-we-have-to-go-deeper/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/thats-not-enough-we-have-to-go-deeper/</guid><pubDate>Thu, 09 Aug 2018 16:15:55 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Aug 2018 17:40:17 GMT</lastBuildDate><item><title><![CDATA[Hear and Speak Your Natural - NLP keras]]></title><description><![CDATA[I like solitude. It is when you truly hear and speak your natural, unadulterated mind, and outcomes your most stupid self as well as your most intelligent self. It is when you realize who you are and the extents of the good and the evils which you are capable of.”  ― Criss Jami, Killosophyi]]></description><link>https://arjun-kava.github.io//posts/hear-and-speak-your-natural/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/hear-and-speak-your-natural/</guid><pubDate>Fri, 17 Aug 2018 17:38:55 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“I like solitude. It is when you truly hear and speak your natural, unadulterated mind, and outcomes your most stupid self as well as your most intelligent self. It is when you realize who you are and the extents of the good and the evils which you are capable of.”
+― Criss Jami, Killosophy&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Human’s are evolved about &lt;em&gt;2.3 to 2.4 million years&lt;/em&gt; ago. Since the 18th century, Scientists thought the great apes to be closely related to human beings. In the 19th century, They speculated that closest living relatives of humans were either &lt;em&gt;chimpanzees&lt;/em&gt; or &lt;em&gt;gorillas&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Do you know what made us different from our closest living relatives?
+Our way of the &lt;strong&gt;thinking!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1-homo-bayes-923eacfeb252eec8e4bb536a6d040348-baedd.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 60%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHrzXRuIB//xAAaEAEAAgMBAAAAAAAAAAAAAAABAiEAAxES/9oACAEBAAEFAnYeifcJiFPai1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAgEBPwFX/8QAGhABAAMAAwAAAAAAAAAAAAAAAQAQEQIhQf/aAAgBAQAGPwIOPeuQfHaMIV//xAAbEAADAAMBAQAAAAAAAAAAAAAAAREhMVFBYf/aAAgBAQABPyFuE2RdTY1dVDXIXCcT+EwCyxeRcORYP//aAAwDAQACAAMAAAAQcD//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQMBAT8QEsv/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBGP//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExQVFhgZHw/9oACAEBAAE/ELFNsYIX7BLChEOCPG6uAS5AdPs0xtBX7bE6ddKw7liHMoxxP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;1-homo-bayes.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1-homo-bayes-923eacfeb252eec8e4bb536a6d040348-baedd.jpg&quot;
+        srcset=&quot;/static/1-homo-bayes-923eacfeb252eec8e4bb536a6d040348-8267e.jpg 240w,
+/static/1-homo-bayes-923eacfeb252eec8e4bb536a6d040348-1aec3.jpg 480w,
+/static/1-homo-bayes-923eacfeb252eec8e4bb536a6d040348-baedd.jpg 700w&quot;
+        sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image source: &lt;a href=&quot;https://lazarzivadinovic.blogspot.com/2016/05/parametri-spektroskopski-dvojnog-sistema.html&quot;&gt;lazarzivadinovic.blogspot.com&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Humans have a persistent process of thinking. When we read something, we understand each and every word based on our understanding of previous words also the emotions exert an effect on human thinking by producing actions such as crying, laughing and sadness. &lt;/p&gt;
+&lt;p&gt;Now the question arises, what made machines to think same as Human Being. Nowadays application such as &lt;em&gt;artificial assistance&lt;/em&gt; has been understanding each and every perspective of human words.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Today’s article is all about understanding, How Artificial Intelligence understands the meaning of everything we spoke. The roadmap is divided into the following major parts.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Feed-Forward Neural Network&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Recurrent Neural Network (RNN)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Falling of Recurrent Neural Network&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Long-Short Term Memory (LSTM)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Simple Implementation of LSTM&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you haven’t discovered about, How Neural Network operates then, I highly counseled reading the following articles first:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://arjun-kava.github.io/posts/prove-simplification-of-neural-network/&quot;&gt;Prove Simplification of Artificial Neural Network - by Arjun Kava&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://arjun-kava.github.io/posts/thats-not-enough-we-have-to-go-deeper/&quot;&gt;That’s not enough, We have to go deeper - by Arjun Kava&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Otherwise, Let’s start exploring.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Feed-Forward Neural Network&lt;/h3&gt;
+&lt;p&gt;The Feed-Forward Neural Network are flowing in a signal optimistic direction from Input layers then though Hidden layers to Output Layers as shown in &lt;em&gt;Fig 1: Feed Forward Network&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;As shown clearly, Feed-Forward Neural Network could not persist any memory into the network due to simple straightforward architecture. Such kind of architecture is not suitable for natural language processing which is overcome by Recurrent Neural Network (RNN).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2-feed_forward_neural_net-85ccefac262053f250b79b31f9418cd4.gif&quot; alt=&quot;2-feed_forward_neural_net.gif&quot;&gt;
+&lt;em&gt;Fig 1: Feed Forward Network (Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/Feedforward_neural_network#/media/File:Feed_forward_neural_net.gif&quot;&gt;en.wikipedia.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Recurrent Neural Network (RNN)&lt;/h3&gt;
+&lt;p&gt;Recurrent Neural Networks were developed in the 1980s. Hopfield networks were discovered by John Hopfield in 1982. Traditionally, Feedforward Neural Network is used to understand the meaning of words but those have not persistence property.&lt;/p&gt;
+&lt;p&gt;Suppose, You knew that we are relatives of either &lt;em&gt;chimpanzees&lt;/em&gt; or &lt;em&gt;gorillas&lt;/em&gt; because of our mind have persistent memory. Traditional networks could not use persist of previous memories to inform later ones.&lt;/p&gt;
+&lt;p&gt;A Feed-Forward Neural Network is constrained to accept a fixed-size vector as input and produce fixed-sized vector as output with a fixed amount of computations steps.&lt;/p&gt;
+&lt;p&gt;On the other hand, RNNs are a network of neuron-like nodes organized into successive &lt;em&gt;layers&lt;/em&gt;, each node in a given layer with a directed(one-way) connection to every other node in next successive layer. Each node has time-varying real-valued activation(tanh activation). Each connection modifies real-valued weights. Nodes are either input nodes, output nodes or hidden nodes.&lt;/p&gt;
+&lt;p&gt;In simple words, &lt;em&gt;RNN network&lt;/em&gt; have the ability of cycling information through the loop. The decision of the network depends on current input as well as what learned before using short-term memory.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/3-recurrent_neural_network_unfold-79e174934c03239fc046bf55357ce7bd.svg&quot; alt=&quot;3-recurrent_neural_network_unfold.svg&quot;&gt;
+&lt;em&gt;Fig 3: Recurrent Neural Network (Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/File:Recurrent_neural_network_unfold.svg&quot;&gt;en.wikipedia.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A typical on Node looks like shown in &lt;em&gt;Fig 3: Recurrent Neural Network(Left)&lt;/em&gt;, where &lt;em&gt;“X”&lt;/em&gt; is input and &lt;em&gt;“O”&lt;/em&gt; is output. A loop enables learning to be passed from one step of the network to the next. A recurrent neural network can be considered as the chain of multiple copies of the same network, each passing some information to a successor.&lt;/p&gt;
+&lt;p&gt;As shown in Fig 3(right portion), This represents unrolling after equal sign which accurately describes the passing of sequences for different time steps. The error back-propagates through the first to the last timestep while unrolling all the timesteps. This allows modernizing weights at each timestep of the resultant error of each timestep.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Falling of Recurrent Neural Network&lt;/h3&gt;
+&lt;p&gt;Despite, the fact that RNNs are widely used for sequential data analysis but It seems that they have certain limitations such as consider predicting the last word in the following sentence.&lt;/p&gt;
+&lt;p&gt;“A helium nucleus has two protons, whereas hydrogen has only &lt;strong&gt;one&lt;/strong&gt;.”&lt;/p&gt;
+&lt;p&gt;The forward information suggests next term will be in numbers but, Due to the looping structure of RNN, The information cycles frequently which result in a mass update of weights. &lt;/p&gt;
+&lt;p&gt;This problem specifically classified into two major theories such as &lt;em&gt;Exploding Gradients&lt;/em&gt; and &lt;em&gt;Vanishing Gradients&lt;/em&gt;. Both enigmas are related to the gradient which is responsible for propagating an optimal solution to get the intended output.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4-exploding-and-vanising-grandient-0a36dcaf3fafc67dd44806ac53543411-f7961.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 488px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.43442622950819%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB3U4pYAv/xAAXEAEBAQEAAAAAAAAAAAAAAAABABAx/9oACAEBAAEFAocY5f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAABIP/aAAgBAQAGPwIc/wD/xAAaEAADAAMBAAAAAAAAAAAAAAAAAREQIUFh/9oACAEBAAE/IbNDPUcyRcCP/9oADAMBAAIAAwAAABDHD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAwEBAAAAAAAAAAAAAAEAMREhQVGB/9oACAEBAAE/EDJouV35uKEjSHYVAZo7APAvyV+z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;4-exploding-and-vanising-grandient.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4-exploding-and-vanising-grandient-0a36dcaf3fafc67dd44806ac53543411-f7961.jpg&quot;
+        srcset=&quot;/static/4-exploding-and-vanising-grandient-0a36dcaf3fafc67dd44806ac53543411-0336d.jpg 240w,
+/static/4-exploding-and-vanising-grandient-0a36dcaf3fafc67dd44806ac53543411-0c671.jpg 480w,
+/static/4-exploding-and-vanising-grandient-0a36dcaf3fafc67dd44806ac53543411-f7961.jpg 488w&quot;
+        sizes=&quot;(max-width: 488px) 100vw, 488px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;em&gt;Fig 4: Exploding Gradients(increasing values) and Vanising Grandients(decreasing values). (Source: &lt;a href=&quot;http://srdas.github.io/DLBook/DL_images/TNN1.png&quot;&gt;srdas.github.io/&lt;/a&gt;))&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Exploding Gradients&lt;/h4&gt;
+&lt;p&gt;Exploding gradients are an enigma where large error gradients expand and result in very large updates to neural network model weights during training.&lt;/p&gt;
+&lt;p&gt;This has the effect of your model is unstable and unable to learn from your training data.&lt;/p&gt;
+&lt;h4&gt;Vanishing Gradients&lt;/h4&gt;
+&lt;p&gt;Due to the Back-propagation, moving backward and determining gradients of loss with respect to weights. The gradient tends to set smaller and smaller as keep moving backward through the network.&lt;/p&gt;
+&lt;p&gt;Because of the lower gradient, Network holds learning or needs too much time to learn. This problem was investigated in depth by Hochreiter (1991) and Bengio, et al (1994).&lt;/p&gt;
+&lt;h3&gt;Long-Short Term Memory (LSTM)&lt;/h3&gt;
+&lt;p&gt;The Long Short-Term Memory(LSTM) was proposed in 1997 by Sepp Hochreiter and Jürgen Schmidhuber and improved in 2000 by Felix Gers’ team. The LSTM is the evolution of RNN which is capable of learning long-term dependencies. LSTM is normally augmented by recurrent gates.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/5-Long_Short-Term_Memory-113060905cf2cc7cb2ae760f9a8cb241.svg&quot; alt=&quot;5-Long_Short-Term_Memory.svg&quot;&gt;
+&lt;em&gt;Fig 5: Long Short-Term Memory(Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/File:Long_Short-Term_Memory.svg#/media/File:Long_Short-Term_Memory.svg&quot;&gt;en.wikipedia.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;LSTM prevents backpropagate errors from vanishing and exploding. Instead, errors can flow backward through unlimited numbers of virtual layers unfolded in space. LSTM can learn tasks that require memories of events that happened thousands or even millions of discrete time steps earlier.&lt;/p&gt;
+&lt;p&gt;A common LSTM network is composed of &lt;em&gt;a cell&lt;/em&gt;, &lt;em&gt;an input gate&lt;/em&gt;, &lt;em&gt;an output gate&lt;/em&gt; and &lt;em&gt;a forget gate&lt;/em&gt;. The cell remembers values over arbitrary time intervals and three regulates the flow of information into and out of the cell.&lt;/p&gt;
+&lt;p&gt;An LSTM cell takes an input and stores it for some period of time. This is equivalent to applying the identity function ( &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mrow&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;true&quot;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mo&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;)&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;{\displaystyle f(x)=x)}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.75em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:1em;vertical-align:-0.25em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.10764em;&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; to the input. Because the derivative of the identity function is constant, when an LSTM network is trained with backpropagation through time, the gradient does not vanish.&lt;/p&gt;
+&lt;p&gt;The activation function of the LSTM gates is often the logistic function. Intuitively, the input gate controls the extent to which a new value flows into the cell, the forget gate controls the extent to which a value remains in the cell and the output gate controls the extent to which the value in the cell is used to compute the output activation of the LSTM unit.&lt;/p&gt;
+&lt;p&gt;There are connections into and out of the LSTM gates, a few of which are recurrent. The weights of these connections, which need to be learned during training, determine how the gates operate. Check &lt;em&gt;Fig 6: Peephole Long-Short Term Memory&lt;/em&gt; for illustration of each gate.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/6-Peephole_Long_Short-Term_Memory-e1394cd86837b00056975077d21e03f8.svg&quot; alt=&quot;6-Peephole_Long_Short-Term_Memory.svg&quot;&gt;
+&lt;em&gt;Fig 6: Peephole Long-Short Term Memory (Source: &lt;a href=&quot;https://en.wikipedia.org/wiki/File:Long_Short-Term_Memory.svg#/media/File:Long_Short-Term_Memory.svg&quot;&gt;en.wikipedia.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Simple Implementation of LSTM&lt;/h3&gt;
+&lt;p&gt;Here is a simple example which classifies polarity of the sentence using IMDB polarity dataset. Keras includes inbuild dataset of IMDB polarity. &lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist91386052&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-lstm_imdb-py&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;blob-wrapper data type-python&quot;&gt;
+      &lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.datasets &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; imdb&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.models &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; Sequential&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.layers &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; Dense&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.layers &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;LSTM&lt;/span&gt;, Convolution1D, Flatten, Dropout&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.layers.embeddings &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; Embedding&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.preprocessing &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; sequence&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.callbacks &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; TensorBoard&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; keras.preprocessing.text &lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; text_to_word_sequence&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt; Using keras to load the dataset with the top_words&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;top_words &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;10000&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;(X_train, y_train), (X_test, y_test) &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; imdb.load_data(&lt;span class=&quot;pl-v&quot;&gt;num_words&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;top_words)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt; Pad the sequence to the same length&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;max_review_length &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;1600&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L16&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;16&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC16&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;X_train &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; sequence.pad_sequences(X_train, &lt;span class=&quot;pl-v&quot;&gt;maxlen&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;max_review_length)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L17&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;17&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC17&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;X_test &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; sequence.pad_sequences(X_test, &lt;span class=&quot;pl-v&quot;&gt;maxlen&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;max_review_length)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L18&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;18&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC18&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L19&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;19&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC19&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt; Using embedding from Keras&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L20&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;20&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC20&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;embedding_vecor_length &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;300&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L21&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;21&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC21&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; Sequential()&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L22&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;22&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC22&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Embedding(top_words, embedding_vecor_length, &lt;span class=&quot;pl-v&quot;&gt;input_length&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;max_review_length))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L23&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;23&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC23&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L24&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;24&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC24&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt; Convolutional model (3x conv, flatten, 2x dense)&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L25&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;25&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC25&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Convolution1D(&lt;span class=&quot;pl-c1&quot;&gt;64&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;same&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L26&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;26&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC26&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Convolution1D(&lt;span class=&quot;pl-c1&quot;&gt;32&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;same&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L27&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;27&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC27&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Convolution1D(&lt;span class=&quot;pl-c1&quot;&gt;16&lt;/span&gt;, &lt;span class=&quot;pl-c1&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;same&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L28&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;28&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC28&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Flatten())&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L29&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;29&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC29&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Dropout(&lt;span class=&quot;pl-c1&quot;&gt;0.2&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L30&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;30&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC30&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Dense(&lt;span class=&quot;pl-c1&quot;&gt;180&lt;/span&gt;,&lt;span class=&quot;pl-v&quot;&gt;activation&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;sigmoid&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L31&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;31&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC31&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Dropout(&lt;span class=&quot;pl-c1&quot;&gt;0.2&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L32&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;32&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC32&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.add(Dense(&lt;span class=&quot;pl-c1&quot;&gt;1&lt;/span&gt;,&lt;span class=&quot;pl-v&quot;&gt;activation&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;sigmoid&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L33&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;33&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC33&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L34&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;34&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC34&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt; Log to tensorboard&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L35&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;35&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC35&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;tensorBoardCallback &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; TensorBoard(&lt;span class=&quot;pl-v&quot;&gt;log_dir&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;./logs&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;write_graph&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;True&lt;/span&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L36&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;36&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC36&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.compile(&lt;span class=&quot;pl-v&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;binary_crossentropy&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;optimizer&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;adam&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;metrics&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;[&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;accuracy&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;])&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L37&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;37&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC37&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L38&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;38&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC38&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.fit(X_train, y_train, &lt;span class=&quot;pl-v&quot;&gt;epochs&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;pl-v&quot;&gt;callbacks&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;[tensorBoardCallback], &lt;span class=&quot;pl-v&quot;&gt;batch_size&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;64&lt;/span&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L39&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;39&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC39&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L40&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;40&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC40&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt; Evaluation on the test set&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L41&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;41&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC41&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;scores &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; model.evaluate(X_test, y_test, &lt;span class=&quot;pl-v&quot;&gt;verbose&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;0&lt;/span&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L42&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;42&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC42&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c1&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;Accuracy: &lt;span class=&quot;pl-c1&quot;&gt;%.2f%%&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;%&lt;/span&gt; (scores[&lt;span class=&quot;pl-c1&quot;&gt;1&lt;/span&gt;]&lt;span class=&quot;pl-k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;100&lt;/span&gt;))&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L43&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;43&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC43&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L44&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;44&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC44&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;model.save(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;polarity_model.h5&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L45&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;45&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC45&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L46&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;46&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC46&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;word2index &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; imdb.get_word_index()&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L47&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;47&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC47&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L48&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;48&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC48&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;&lt;span class=&quot;pl-c&quot;&gt;#&lt;/span&gt;predict sentiment from reviews&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L49&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;49&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC49&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;bad &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;this movie was terrible and bad&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L50&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;50&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC50&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;good &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;i really liked the movie and had fun&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L51&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;51&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC51&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;for&lt;/span&gt; review &lt;span class=&quot;pl-k&quot;&gt;in&lt;/span&gt; [good,bad]:&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L52&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;52&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC52&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    test&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;[]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L53&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;53&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC53&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;for&lt;/span&gt; word &lt;span class=&quot;pl-k&quot;&gt;in&lt;/span&gt; text_to_word_sequence( &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;i love this movie&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;):&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L54&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;54&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC54&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;         test.append(word2index[word])&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L55&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;55&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC55&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L56&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;56&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC56&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    test&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;sequence.pad_sequences([test],&lt;span class=&quot;pl-v&quot;&gt;maxlen&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt;max_review_length)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L57&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;57&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC57&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    model.predict(test)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-L58&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;58&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-lstm_imdb-py-LC58&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-c1&quot;&gt;print&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;pl-c1&quot;&gt;%s&lt;/span&gt;. Sentiment: &lt;span class=&quot;pl-c1&quot;&gt;%s&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;%&lt;/span&gt; (review, model.predict(test)))&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/arjun-kava/4e08c8c1056785d9b0d7581d724dc08f/raw/ae3c5d528c7df1a2b62f1b2b95deb5c315737a4c/lstm_imdb.py&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/arjun-kava/4e08c8c1056785d9b0d7581d724dc08f#file-lstm_imdb-py&quot;&gt;lstm_imdb.py&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h3&gt;Output&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;Using TensorFlow backend.
+Loading data...
+Downloading data from https://s3.amazonaws.com/text-datasets/imdb.npz
+17465344/17464789 [==============================] - 62s 4us/step
+25000 train sequences
+25000 test sequences
+Pad sequences (samples x time)
+x_train shape: (25000, 80)
+x_test shape: (25000, 80)
+Build model...
+Train...
+Train on 25000 samples, validate on 25000 samples
+Epoch 1/3
+25000/25000 [==============================] - 615s 25ms/step - loss: 0.3808 - acc: 0.8203
+Epoch 2/3
+25000/25000 [==============================] - 623s 25ms/step - loss: 0.1679 - acc: 0.9366
+Epoch 3/3
+25000/25000 [==============================] - 562s 22ms/step - loss: 0.0600 - acc: 0.9794
+Accuracy: 82.56%
+Downloading data from https://s3.amazonaws.com/text-datasets/imdb_word_index.json
+1646592/1641221 [==============================] - 6s 3us/step
+Great movie I had ever watched.. Sentiment: [[0.9146]]
+you know even better than them that you have potential! Stop portraying in parody movies!. Sentiment: [[0.03823381]]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;As shown above, The output nearest to zero is a negative review and nearest to one is positive. That’s all for today.&lt;/p&gt;
+&lt;h3&gt;Foot Notes&lt;/h3&gt;
+&lt;p&gt;Today I had explained the major concepts used in recent Natural Langauge Processing, Hope you like it. For any queries comment into below box. I will write about more examples in the next articles till then Happy Exploring.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[That's not enough, We have to go deeper]]></title><description><![CDATA[“Life is really simple, but we insist on making it complicated.”  ― Confucius]]></description><link>https://arjun-kava.github.io//posts/thats-not-enough-we-have-to-go-deeper/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/thats-not-enough-we-have-to-go-deeper/</guid><pubDate>Thu, 09 Aug 2018 16:15:55 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;“Life is really simple, but we insist on making it complicated.” ― Confucius&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;When I had started to learn about &lt;strong&gt;Machine Learning&lt;/strong&gt;, &lt;strong&gt;Deep Learning&lt;/strong&gt;, and &lt;strong&gt;Neural Networks&lt;/strong&gt;, It was like finding a beam of light in a complete dark hole but you know the science of the black hole. It is a region in space in which the singularity’s gravitational force is so strong that not even light can escape its pull.&lt;/p&gt;
