@@ -5,6 +5,35 @@ import Disqus from '../Disqus/Disqus';
 import Subscribe from '../Subscribe';
 import './style.scss';
 import "katex/dist/katex.min.css"
+import {
+  FacebookShareButton,
+  GooglePlusShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  TelegramShareButton,
+  WhatsappShareButton,
+  PinterestShareButton,
+  VKShareButton,
+  OKShareButton,
+  RedditShareButton,
+  TumblrShareButton,
+  LivejournalShareButton,
+  MailruShareButton,
+  ViberShareButton,
+  WorkplaceShareButton,
+  EmailShareButton,
+} from 'react-share';
+import {
+  FacebookShareCount,
+  GooglePlusShareCount,
+  LinkedinShareCount,
+  PinterestShareCount,
+  VKShareCount,
+  OKShareCount,
+  RedditShareCount,
+  TumblrShareCount,
+} from 'react-share';
+
 class PostTemplateDetails extends React.Component {
   render() {
     const { subtitle, author } = this.props.data.site.siteMetadata;
@@ -43,6 +72,12 @@ class PostTemplateDetails extends React.Component {
       </div>
     );
 
+    const SocialButtons = (
+      <div>
+        <LinkedinShareButton title={post.frontmatter.title} url="" />
+      </div>
+    )
+
     return (
       <div>
         {homeBlock}
@@ -63,6 +98,7 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
             </p>
+            {SocialButtons}
             {SubscribeBlock}
             {commentsBlock}
           </div>

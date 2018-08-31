@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import { DiscussionEmbed } from "disqus-react";
 import PostTemplateDetails from '../components/PostTemplateDetails';
 
+
 class PostTemplate extends React.Component {
   render() {
     const { title, subtitle } = this.props.data.site.siteMetadata;
@@ -14,6 +15,7 @@ class PostTemplate extends React.Component {
       identifier: post.id,
       title: post.frontmatter.title,
     };
+    const shareUrl = "https://www.facebook.com/sharer/sharer.php?u=https://gogul09.github.io//software/first-neural-network-keras"
     return (
       <div>
         <Helmet>
@@ -21,7 +23,9 @@ class PostTemplate extends React.Component {
           <meta name="description" content={description} />
         </Helmet>
         <PostTemplateDetails {...this.props} />
+        
         <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+
       </div>
     );
   }
