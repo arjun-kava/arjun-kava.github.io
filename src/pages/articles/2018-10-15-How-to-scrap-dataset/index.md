@@ -1,6 +1,6 @@
 ---
 title: How did you scrap this data?
-date: "2018-10-15T12:21:32.381Z"
+date: "2018-10-28T14:21:25.126Z"
 layout: post
 draft: false
 path: "/posts/how-did-you-scrap-this-data/"
