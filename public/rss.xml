@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Arjun Kava]]></title><description><![CDATA[I am a tireless seeker of knowledge, occasional purveyor of wisdom and also, coincidentally, a deep learning engineer.]]></description><link>https://arjun-kava.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 28 Oct 2018 14:23:37 GMT</lastBuildDate><item><title><![CDATA[How did you scrap this data?]]></title><description><![CDATA[Do you just tired of doing manual stuff? Does your friends are watching some sci-fi movies and are you stuck with downloading images for your next project?  If everything above asked has a positive direction. You are at the right place!]]></description><link>https://arjun-kava.github.io//posts/how-did-you-scrap-this-data/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-did-you-scrap-this-data/</guid><pubDate>Sun, 28 Oct 2018 14:21:25 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Do you just tired of doing manual stuff? Does your friends are watching some sci-fi movies and are you stuck with downloading images for your next project?
+If everything above asked has a positive direction. You are at the right place!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-91196.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.76344086021505%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACBUlEQVQoz31S20uTcRj+lBBPeRGzsJAITMjDVbN11ugiUMGLCA9TFGQNXUQQQtGBRc2pO3zmPlNndFHkedPpstAGQalzzrlmUB4u+k+e3t+Ln+hmXjz8vt/7PO/zew+ftOxxIDzZTZDj0I0Vr4yQx4mVBO7/kETi2nRPAiK+14j5FWzMDfB9depgXTwk4aoa7EXsk4LAewsM1be40u3AIMJkukrcQXoV+wzVU7QoDMz36yBJEsp0xeh/acLG/ACiMy6oOXvzDq0wSveffheulxSiVV8BxdyC3JxslJdqmRfGqjbeNKFCMatfs72wP2pGzvFjCHyw4O+3d/yAtigPV86fw5CzDSGvM6HdfYbC6M9cP968aIHruRFPTdV40FTFseCEA5vzbshPDFSpBrWVpZh9a+ZKwzvL2p2hGPgafQjjTRI4HjfjqrYAS+N2XgzPlDRbX91oM9xG3umT6Hl2lx9zv7qH31/6uJhdw4hPzEuhYStYp1a/D3fCVF8B8X/yXGgJUeKFRl91g5d09swpZGakQ1uczzzn70D68dGCpZEOLA5bsTzWhfXPfdSKm7cpBAsUj/lkPGysRPqRJGiy0pCRkgzN0VScyEqF8c5NRLwOLAy1k48Vkq3+EuwNlyFOuekaJtoNTAZHO+HtMDJnJ85acwFddTrY9Bf5LmDT6yhewrlq7B8wpVzpAsF2XwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;web-scrapper.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-c83f1.png&quot;
+        srcset=&quot;/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-569e3.png 240w,
+/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-93400.png 480w,
+/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-c83f1.png 960w,
+/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-23e13.png 1440w,
+/static/web-scrapper-216b29a49bc7e04e45ec99225d4aceb6-91196.png 1488w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you just want to explore code, follow git repo
+&lt;a href=&quot;https://github.com/zujoio/web-scrapper-python&quot;&gt;web-scrapper-python&lt;/a&gt;
+otherwise, go ahead!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;The Deep Learning&lt;/em&gt; has become the most promising method for solving &lt;em&gt;real-world problems&lt;/em&gt;. It is the most revolutionized innovation for &lt;em&gt;machine learning problems&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Deep Learning Algorithms&lt;/em&gt; have been working so well needs lots of data. The large-scale annotated datasets have been explored for the same purpose. The more annotated data we have, the better our model performs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-706b5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.3125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABGElEQVQoz31RCY6DMAzk/x9soeFqmyopNEAOwDnX9FjtbqudWJYdZTSeOEsphRDSG2J8xj/IkLksyzvzGwBeKfOovffWWgCI9xcZNtM0/aFpnTiPTRsZT5QueV4556SUnHF6Pp+OJznJjYzMumm24V9yerY56VuWjteoIPmIgk4IUSJIWZUVIWS32yExG4So63rTDB40dOeVFj0rqlS3qSzSgQTeWW1eFoAxlu/3lFKlVDYbI4YhBTcRft33wEXSCueONxH7W8I8jv7+KQ+fmIP3T88hRAfrXDN2sU/bPyy8t79+G681vZwOwwzOwmq0lnIax9EYA+uKsS4L1p/J2wIcHh+8Q4Gu65qmadsWveFs/g7cSPwk/gVh2QkeC/jeSgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;data-need-graph.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-c83f1.png&quot;
+        srcset=&quot;/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-569e3.png 240w,
+/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-93400.png 480w,
+/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-c83f1.png 960w,
+/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-23e13.png 1440w,
+/static/data-need-graph-1536d3037f2efdf436a796d76d717d8b-706b5.png 1600w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;But well gathering well-annotated data can be time-consuming to acquire as well as expensive. The process can be automated compared to a traditional manual method using web-scrapping.&lt;/p&gt;
+&lt;p&gt;Today’s article is all about web-scrapping using Python.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;HTML Introduction&lt;/h2&gt;
+&lt;p&gt;I am assuming you know basic HTML tags but If my assumption is False then follow the link &lt;a href=&quot;https://html.com/&quot;&gt;HTML Tutorial&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Anyways, You have been realized that HTML tags have attributes such as &lt;code class=&quot;language-text&quot;&gt;class&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;id&lt;/code&gt; which can be very useful to locate unstructured data of the website.&lt;/p&gt;
+&lt;p&gt;The same HTML properties and tags will be used to gather information about structure of data while scrapping.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Advice&lt;/h2&gt;
+&lt;p&gt;Few pieces of advice before starting:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Respect the Terms of Service (ToS) for commercial purpose.&lt;/li&gt;
+&lt;li&gt;Don’t republish your scraped data or any derivative dataset without verifying the license of the data, or without obtaining a written permission from the copyright holder.&lt;/li&gt;
+&lt;li&gt;Don’t base your whole business on data scraping. The website(s) that you scrape may eventually block you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;for more information, I recommended reading the great article &lt;a href=&quot;https://benbernardblog.com/web-scraping-and-crawling-are-perfectly-legal-right/&quot;&gt;Web Scraping and Crawling Are Perfectly Legal, Right?&lt;/a&gt; by &lt;a href=&quot;https://benbernardblog.com/about-me/&quot;&gt;Ben Bernard&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I am going to explain web scrapping implementation step by step in following sections, also the roadmap is list down as below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Getting Started&lt;/li&gt;
+&lt;li&gt;Web Inspector&lt;/li&gt;
+&lt;li&gt;Getting Start with Code&lt;/li&gt;
+&lt;li&gt;Advanced Usage with Selenium Web Driver&lt;/li&gt;
+&lt;li&gt;Advanced Usage with Threading&lt;/li&gt;
+&lt;li&gt;Advanced Usage with Scrapy&lt;/li&gt;
+&lt;li&gt;References&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Excited? Let’s start step by step.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;We are going to use powerful and simple Python as our scrapping language. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For installing Python, download compatible version of Python from &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;further, we need to install &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;BeautifulSoup&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://pypi.org/project/cssutils/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cssutils&lt;/code&gt;&lt;/a&gt; using &lt;code class=&quot;language-text&quot;&gt;pip&lt;/code&gt;, a package management tool for Python.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install BeautifulSoup
+pip install cssutils&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;If you are failed to execute commands add &lt;code class=&quot;language-text&quot;&gt;--user&lt;/code&gt; at end of each or try with &lt;code class=&quot;language-text&quot;&gt;sudo&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Web Inspector&lt;/h2&gt;
+&lt;p&gt;Web Inspector is a tool which is going to help us to find HTML behind the scene of any particular website.&lt;/p&gt;
+&lt;p&gt;Let’s take the example of  &lt;a href=&quot;burst.shopify.com&quot;&gt;burst.shopify.com&lt;/a&gt; page. Open page and select category Dog then right-click on the image. It will open your browser’s inspector to inspect a webpage. As shown below:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/inspect-element-0bdc93fd24313edf657eb9d25f2a87e3-968cc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 855px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.046783625730995%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAC4ElEQVQozyXR6UvTARzH8f0FFWo3brbsmFet1Kl55lyTZjIzkDITK51Wmq1sR5ZT/Gn3ujwwnJW11GxzWqG5ooNo1YOiCLLDrIQMTMigR/ruRz34Pvk+eH0+X74SrWY9ujQNqWviKdu9i5KinSxYGEhgYBDZWXrUKcnIZEH4+wcgDZKhF3e5W3IJDQlBKpOSkJyEPnsT+pxckjRaJOGKUJQKBTFKJRv1WWzYkElAwBz8/GcTFRmJcsUK5s6dh5+fH9JFclLUYnhqGkuXhzBr5kzkcilxCYkkrFWzRHQkqhiVmJqFTqdDq9Wi0WhENIN07TqSEuJRr03510adGIepfDc5mTpyN+dw8MB+LGYTOwvyKd6RT4ZWTUSICAqCgM/nwzs4iNfr5e5AP/13buNxu7hx/Rp3et3kb8tDn56KveYQdWUlWIx7qT1soa7KSrW5nKM2M8eNxaTGRiFxOp1MTU0xPj7+b36MjTEy/JGRj0N8/vCOr5/e09xwHqtxD1VWK/ZT57jY0MTZkycQrEZqKk20t12isWIX2njVf3B6epqJiQl+iuCv3394POCh+ZiNb19GGHr7moG+Hjw3uvC4PDg7unG7e3n+4iX1tQKOszVcOS1wRmyaFCuCDoeDyclJRkdH+f59jOGhN/S3HKGzQWB4+DO+xw9wd3Xi6uzkVm8fjx485P69+/iePiO/oJCYmDWUFWwjQ50iPmgxEoPBQEtLC+cvNNB4zk5pfSvZx/opMJ0SzzFjq7Rws6OZbmcbPR2X6eu+ive2ixdP7tHuaKTQUMSO7EzKirazZWsekuDgYMLCwlCILw8PVbBsZSzy6PXIw6MIlssIi1BS2+rC3u7laNsgda13sTsf0dTzir3l+0hLjCZZFUlyXDRK5UokcapVVFtKOSlYqK4yU2k9gGmPkSqTDfPBCkymCgz7bOSV1lFsu0ax0EWhcJOS+m4SM0sIly4gPTqCjNVBLJs/g79sC9olDEVePQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;inspect-element.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/inspect-element-0bdc93fd24313edf657eb9d25f2a87e3-968cc.png&quot;
+        srcset=&quot;/static/inspect-element-0bdc93fd24313edf657eb9d25f2a87e3-1da2c.png 240w,
+/static/inspect-element-0bdc93fd24313edf657eb9d25f2a87e3-48905.png 480w,
+/static/inspect-element-0bdc93fd24313edf657eb9d25f2a87e3-968cc.png 855w&quot;
+        sizes=&quot;(max-width: 855px) 100vw, 855px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/inspect-element-html-78b977c61d1b0da26eae71cdce54f903-23e13.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.18055555555556%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACUklEQVQozz2Sy08TURSH+xe4dqdGNrqVjQsMweiOpcZXwLhQIQp9IJSqNATQjUEXYqKLSly4NYqCBhOMJhpFpKIJChTa0mk7nWenM1Pog8/bMeEmJ/fe3Hu+8/r5JEnCNE1KpRKapqEqKrquo6oKilIQbwaaqtL4pxQ0cvnGexFdMzDEf9MwhK9N2XVwHBvfwMAAqVQK27Y9oFIokMtmSCfX2Vj9S2ZjjbnZGaLRKDXHJZsuIMsWqiyCygImgpedLWqVimc+v99PMpkUdGcXmM9KyPkc6fU1Dzg7PcVgZJCdap1MSqagWCKBLcrlCvV6nZ0dvNXYfMFgcBfYKLUBlTIZXj6Psfj1C0pO4umjB/T3BT0nu5BHV4o4lkvZcqhtbUOtSr1S9ZC+QCBAIpH430PRK9Uokv6zwJPbl1n8Po8sgPeiYXr9QdZt+LZqsLCis5B0iaddFlMuy7kyy/ltlgtVfKFQyCuvQa+LnEuqxNzkCG9jd4h//sCvH/OM9l3huj/EkgGf1lzeL+lMx01hOjNxlXc/NWZ/W3xMbOO72tVFbPIZU6+nefHqDbHHDxkOBxgdu0tkMELvtW7aTxyj/0afV3JRTD+zkUFJZzGkLKYkzpsSm0mZkiGmfOrsBfY2t9PU1sG+ljPsbznN4ZOdHGw9x4HW8zQd72TPoTZ6/AFsp+z12CqaWFYJQ0hG9eQj5CUnsYs6vksXOxgKhxi7GaGnq5vx8ftMTEwwHB1iZOgW4WAvR5uPEBLDs4XO0lIOWdFwXde720JKpiKyza6I7LP8A25MWfR/yO4fAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;inspect-element-html.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/inspect-element-html-78b977c61d1b0da26eae71cdce54f903-c83f1.png&quot;
+        srcset=&quot;/static/inspect-element-html-78b977c61d1b0da26eae71cdce54f903-569e3.png 240w,
+/static/inspect-element-html-78b977c61d1b0da26eae71cdce54f903-93400.png 480w,
+/static/inspect-element-html-78b977c61d1b0da26eae71cdce54f903-c83f1.png 960w,
+/static/inspect-element-html-78b977c61d1b0da26eae71cdce54f903-23e13.png 1440w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;em&gt;- Web Inspector Example&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It is going to display the source of code which might have a structure such as follow:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div class=&amp;quot;tile tile--with-overlay gutter-bottom&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;photo-tile&amp;quot;&amp;gt;
+        &amp;lt;a class=&amp;quot;photo-tile__image-wrapper&amp;quot;&amp;gt;
+            &amp;lt;img sizes=&amp;quot;100vw&amp;quot; data-srcset=&amp;quot;https:...&amp;quot; 
+                 class&amp;quot;tile__image js-track-photo-stat-view js-track-photo-stat-click lazyloaded&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The HTML tags are uniquely identified by properties of tags. As a result, now, We know the location of uniquely identified data during the process of scrapping.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Getting Start with Code&lt;/h2&gt;
+&lt;p&gt;The Following is configuration need to be placed into &lt;code class=&quot;language-text&quot;&gt;config.py&lt;/code&gt; file. This global configuration is going to be used in different scripts.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Target dataset path
+DATASET_PATH = &amp;quot;./dataset&amp;quot;
+
+# Fake user agent for avoiding 503 error
+HEADERS = {
+    &amp;#39;User-Agent&amp;#39;: &amp;#39;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36&amp;#39;
+}
+
+# Base url of scrapping
+BASE_URL = &amp;quot;https://burst.shopify.com&amp;quot;
+
+# Advanced parameters
+# Categories want to scrap
+CATEGORIES = [&amp;quot;dog&amp;quot;,&amp;quot;cat&amp;quot;]
+
+# Page limit to search images from URL
+PAGE_FROM =1
+PAGE_TO = 2
+
+# Number of workers for downloading pages and images for better and faster performance
+WORKERS = 4&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now, Let’s get our hand dirty with code. import some libraries to getting started with actual code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from bs4 import BeautifulSoup
+import os
+import urllib.request
+from tqdm import tqdm
+import ssl&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;BeautifulSoup&lt;/code&gt; is used for scraping web pages and images while &lt;code class=&quot;language-text&quot;&gt;urllib&lt;/code&gt; is imported to download web pages and images. &lt;code class=&quot;language-text&quot;&gt;tqdm&lt;/code&gt; is used for just displaying progress and &lt;code class=&quot;language-text&quot;&gt;ssl&lt;/code&gt; used for creating fake verification of request.&lt;/p&gt;
+&lt;p&gt;also, we need to import &lt;code class=&quot;language-text&quot;&gt;config.py&lt;/code&gt; file to use global configuration.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from config import *&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Before starting I am putting some local configuration which is going to used as below.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;timeout = 60 # Request timeout
+url = BASE_URL + &amp;quot;/dog&amp;quot; # URL being scrapped
+target_dir = os.path.join(DATASET_PATH,&amp;quot;dog&amp;quot;) # Target directory for scrapping data&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;To download source of the page, I have used &lt;code class=&quot;language-text&quot;&gt;urllib&lt;/code&gt; library where &lt;code class=&quot;language-text&quot;&gt;context&lt;/code&gt; specifies a fake SSL certificate to avoid SSL Exceptions and &lt;code class=&quot;language-text&quot;&gt;HEADERS&lt;/code&gt; are imported from global configuration to avoid 503 Exception generated by the web servers.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Bypass SSL verification
+context = ssl._create_unverified_context()
+
+# Read HTML page and save as long string
+req = urllib.request.Request(url, headers=HEADERS)
+response = urllib.request.urlopen(req, timeout=timeout, context=context)
+
+# Read page source
+html = response.read()&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The downloaded HTML source code needs to be parsed to access properties of HTML tags. &lt;code class=&quot;language-text&quot;&gt;BeautifulSoup&lt;/code&gt; is going to use for the same context. It has well-optimized classes and methods to access HTML tags by their unique properties.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Parse HTML source using BeautifulSoup
+soup =  BeautifulSoup(html, &amp;quot;html.parser&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now we have a handler called &lt;code class=&quot;language-text&quot;&gt;soup&lt;/code&gt; which is the parsed version of HTML source code that can be attached to any supported method of &lt;code class=&quot;language-text&quot;&gt;BeautifulSoup&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;As we had learned earlier about unique tags of data. &lt;code class=&quot;language-text&quot;&gt;soup&lt;/code&gt; has a &lt;code class=&quot;language-text&quot;&gt;select()&lt;/code&gt; method which is going to help us to find specific tags from parsed HTML content. Since we have unique class of &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Img class=&amp;quot;js-track-photo-stat-view&amp;quot; &amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+&lt;p&gt;Below piece of code is will fetch all &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Img&amp;gt;&lt;/code&gt; tags from a page whose class defined as &lt;code class=&quot;language-text&quot;&gt;js-track-photo-stat-view&lt;/code&gt;. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;image_grids = soup.select(&amp;#39;.js-track-photo-stat-view&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Next, we have to extract URL of images which can be helpful to download the image.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;image_grids&lt;/code&gt; includes multiple entries of &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Img&amp;gt;&lt;/code&gt; as shown listed below. As you can see, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Img&amp;gt;&lt;/code&gt; tag has property named &lt;code class=&quot;language-text&quot;&gt;data-srcset&lt;/code&gt; which includes URLs of images as per resolution 1x, 2x and so on.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;img alt=&amp;quot;good morning sunshine&amp;quot; 
+class=&amp;quot;tile__image js-track-photo-stat-view js-track-photo-stat-click lazyload&amp;quot; 
+data-category-handle=&amp;quot;dog&amp;quot; 
+data-photo-id=&amp;quot;1394&amp;quot; 
+data-photo-title=&amp;quot;Good Morning Sunshine&amp;quot; 
+data-srcset=&amp;quot;https://burst.shopifycdn.com/photos/good-morning-sunshine_373x.progressive.jpg 1x, https://burst.shopifycdn.com/photos/good-morning-sunshine_373x@2x.progressive.jpg 2x&amp;quot; 
+sizes=&amp;quot;100vw&amp;quot; 
+src=&amp;quot;https://burst.shopifycdn.com/photos/good-morning-sunshine_70x.progressive.jpg&amp;quot;/&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;We can access properties of &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Img&amp;gt;&lt;/code&gt; tag using &lt;code class=&quot;language-text&quot;&gt;get()&lt;/code&gt; method. Below code going to fetch the content of &lt;code class=&quot;language-text&quot;&gt;data-srcset&lt;/code&gt; property as well as preprocess data to find the highest resolution image from it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;image_urls = []
+for image_tag in tqdm(image_grids,desc=&amp;quot;Find Images&amp;quot;):
+
+    # Fetch data tag which includes sequence of URLS
+    image_url = image_tag.get(&amp;#39;data-srcset&amp;#39;)
+
+    # Extract highest resolution image from data tad
+    image_url = image_url.split(&amp;#39;,&amp;#39;)
+    high_resolution_pair = image_url[-1].split(&amp;#39; &amp;#39;)
+    high_resolution_image_url = high_resolution_pair[1].replace(&amp;quot;@2x&amp;quot;, &amp;quot;@3x&amp;quot;)
+
+    # Stack all image urls
+    image_urls.append(high_resolution_image_url)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now, We have a list of URLs stacked into &lt;code class=&quot;language-text&quot;&gt;image_urls&lt;/code&gt; list. All we need to do is download images into targeted directories. Below script is going to do the rest.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Download images into target directory
+for image_url in tqdm(image_urls,desc=&amp;quot;Download Images&amp;quot;):
+
+    # Extract name of file from URL
+    file_name = image_url.split(&amp;quot;/&amp;quot;)[-1]
+
+    # Build target path of image
+    image_path = os.path.join(target_dir, file_name)
+
+    # Create directories
+    if not os.path.exists(target_dir): os.mkdir(target_dir)
+
+    # Write image to file system
+    if not os.path.exists(image_path):
+
+        # Read image from web
+        req = urllib.request.Request(image_url, headers=HEADERS)
+        response = urllib.request.urlopen(req, timeout=timeout, context=context)
+
+        # Write it down to file system
+        f = open(image_path, &amp;#39;wb&amp;#39;)
+        f.write(response.read())
+        f.close()&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Every image fetched will be downloaded in target directory.
+The above script is going to displays output as below which might change as per your computer’s performance and speed of internet!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Find Images: 100%|###########################################################################################################################################| 50/50 [00:00&amp;lt;00:00, 107933.71it/s]
+Download Images: 100%|###########################################################################################################################################| 50/50 [00:42&amp;lt;00:00,  2.81it/s]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;You can find the whole script at github repo &lt;a href=&quot;https://github.com/zujoio/web-scrapper-python/blob/master/basic_scrapper.py&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;basic_scrapper.py&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can find other methods and use of &lt;code class=&quot;language-text&quot;&gt;BeautifulSoap&lt;/code&gt; at official documentation from &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/&quot;&gt;BeautifulSoup&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Advanced Usage with Selenium Web Driver&lt;/h2&gt;
+&lt;p&gt;The problem with simple &lt;code class=&quot;language-text&quot;&gt;urllib&lt;/code&gt; is that It does not support to download dynamic HTML content from specified URL.&lt;/p&gt;
+&lt;p&gt;HTML going to be load after javascript executes and dynamically generate content of the page. At this moment &lt;code class=&quot;language-text&quot;&gt;urllib&lt;/code&gt; going to download page source but it does not include page source which required for downloading images.&lt;/p&gt;
+&lt;p&gt;For example, open any product page from &lt;a href=&quot;https://www.amazon.com/Old-Man-Sea-Ernest-Hemingway/dp/0684801221/ref=sr_1_1?ie=UTF8&amp;#x26;qid=1540649353&amp;#x26;sr=8-1&amp;#x26;keywords=old+man+and+the+sea&quot;&gt;amazon.com&lt;/a&gt;. The whole content of the product will be generated after the javascript done. &lt;/p&gt;
+&lt;p&gt;This javascript issue can be solved using &lt;code class=&quot;language-text&quot;&gt;selenium&lt;/code&gt; web driver for downloading page source. It is going to open the web page autonomously and waits until every script on the page is going to be executed.&lt;/p&gt;
+&lt;p&gt;To start with &lt;code class=&quot;language-text&quot;&gt;selenium&lt;/code&gt;, you have to install specific browser web driver bindings as per your system configuration using the following link. In my case, I am going to use Firefox for Mac OS.&lt;/p&gt;
+&lt;h4&gt;Official Selenium Python Package Page:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://pypi.org/project/selenium/&quot;&gt;https://pypi.org/project/selenium/&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Download Firefox Web Driver Bindings:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/mozilla/geckodriver/releases&quot;&gt;https://github.com/mozilla/geckodriver/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Install selenium package using following script&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install selenium&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now import web driver and replace fetching page source with below code:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;from selenium import web driver
+
+# Use selenium firefox driver to get page source
+browser = webdriver.Firefox()
+browser.get(url)
+
+# get page source
+html = browser.page_source&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It will open an autonomous firefox window and close it after the whole page loaded successfully. You can find more use case of &lt;code class=&quot;language-text&quot;&gt;selenium&lt;/code&gt; from&lt;a href=&quot;https://selenium-python.readthedocs.io/&quot;&gt;selenium-python.readthedocs.io/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Advanced Usage with Threading&lt;/h2&gt;
+&lt;p&gt;The above code is basic so It is not going to utilize resources available. To overcome the problem, Threading can be used to improve the performance of scrapper. Web pages and images can be downloaded parallelly using &lt;code class=&quot;language-text&quot;&gt;ThreadPoolExecutor&lt;/code&gt; of inbuild &lt;code class=&quot;language-text&quot;&gt;concurrent&lt;/code&gt; package of python.&lt;/p&gt;
+&lt;p&gt;Bolow code downloads images with array of &lt;code class=&quot;language-text&quot;&gt;images_urls&lt;/code&gt; using multi-threading. &lt;code class=&quot;language-text&quot;&gt;download_image&lt;/code&gt; is function takes single &lt;code class=&quot;language-text&quot;&gt;url&lt;/code&gt; of image and &lt;code class=&quot;language-text&quot;&gt;timeout&lt;/code&gt; of request as input. The images is going to be downloded parallely using following script.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Initialize thread pool executor
+executor = concurrent.futures.ThreadPoolExecutor(max_workers=5):
+
+# Start the load operations and mark each future with its URL
+future_to_url = {executor.submit(download_image, url, timeout): url for url in image_urls}
+count_images = 0
+for future in concurrent.futures.as_completed(future_to_url):
+    files = future.result()
+    count_images = count_images + len(files)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Find out more about &lt;code class=&quot;language-text&quot;&gt;ThreadPoolExecutor&lt;/code&gt; from &lt;a href=&quot;https://docs.python.org/3/library/concurrent.futures.html&quot;&gt;concurrent.futures&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Advanced Usage with Scrapy&lt;/h1&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Scrapy&lt;/code&gt; can be used as advancement in scrapping. It contains rich classes and methods to extract data from multiple sources. &lt;/p&gt;
+&lt;p&gt;First of all, Install scrappy by using the following command:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;pip install scrapy&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Spiders&lt;/code&gt; are classes that you define and that &lt;code class=&quot;language-text&quot;&gt;Scrapy&lt;/code&gt; uses to scrape information from a website (or a group of websites). They must subclass scrapy. Spider and define the initial requests to make, optionally how to follow links in the pages, and how to parse the downloaded page content to extract data.&lt;/p&gt;
+&lt;p&gt;Let’s start with the simple example which extracts titles of a blog from multiple pages of content. &lt;/p&gt;
+&lt;p&gt;First of all, I have to import the scrapy library and implement class &lt;code class=&quot;language-text&quot;&gt;BlogSpider&lt;/code&gt; extended from &lt;code class=&quot;language-text&quot;&gt;scrapy.Spider&lt;/code&gt; base class. I have to declare the name of spider and URL using &lt;code class=&quot;language-text&quot;&gt;name&lt;/code&gt;  and  &lt;code class=&quot;language-text&quot;&gt;start_urls&lt;/code&gt; respectively. Show as below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import scrapy
+
+&amp;quot;&amp;quot;&amp;quot;
+    Abstraction of Blog Scrapper
+&amp;quot;&amp;quot;&amp;quot;
+class BlogSpider(scrapy.Spider):
+    # configure name of blog spider and URL
+    name = &amp;#39;blogspider&amp;#39;
+    start_urls = [&amp;#39;https://blog.scrapinghub.com&amp;#39;]&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now, I have to override &lt;code class=&quot;language-text&quot;&gt;parse&lt;/code&gt; method to scrap data from the specified URL. Below code is going to find &lt;code class=&quot;language-text&quot;&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; from the page whose class is &lt;code class=&quot;language-text&quot;&gt;post-header&lt;/code&gt; then extract the text of the first element. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;&amp;quot;&amp;quot;
+    Implement parser 
+&amp;quot;&amp;quot;&amp;quot;
+def parse(self, response):
+    # extract titles from page
+    for title in response.css(&amp;#39;.post-header&amp;gt;h2&amp;#39;):
+        yield {&amp;#39;title&amp;#39;: title.css(&amp;#39;a ::text&amp;#39;).extract_first()}&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;After that, I have called &lt;code class=&quot;language-text&quot;&gt;parse&lt;/code&gt; method recursively for each page in defined URL. It is much easier to work with &lt;code class=&quot;language-text&quot;&gt;Scrapy&lt;/code&gt; as well as much shorter code requires comparatively.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;def parse(self, response):
+    # extract titles from page
+    for title in response.css(&amp;#39;.post-header&amp;gt;h2&amp;#39;):
+        yield {&amp;#39;title&amp;#39;: title.css(&amp;#39;a ::text&amp;#39;).extract_first()}
+
+    # move to the next page
+    for next_page in response.css(&amp;#39;div.prev-post &amp;gt; a&amp;#39;):
+        yield response.follow(next_page, self.parse)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The whole code is defined as below:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import scrapy
+
+&amp;quot;&amp;quot;&amp;quot;
+    Abstraction of Blog Scrapper
+&amp;quot;&amp;quot;&amp;quot;
+class BlogSpider(scrapy.Spider):
+    # configure name of blog spider and URL
+    name = &amp;#39;blogspider&amp;#39;
+    start_urls = [&amp;#39;https://blog.scrapinghub.com&amp;#39;]
+
+    &amp;quot;&amp;quot;&amp;quot;
+        Implement parser 
+    &amp;quot;&amp;quot;&amp;quot;
+    def parse(self, response):
+        # extract titles from page
+        for title in response.css(&amp;#39;.post-header&amp;gt;h2&amp;#39;):
+            yield {&amp;#39;title&amp;#39;: title.css(&amp;#39;a ::text&amp;#39;).extract_first()}
+
+        # move to the next page
+        for next_page in response.css(&amp;#39;div.prev-post &amp;gt; a&amp;#39;):
+            yield response.follow(next_page, self.parse)&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Find out more about &lt;code class=&quot;language-text&quot;&gt;Scrapy&lt;/code&gt; at official documentation link: &lt;a href=&quot;https://scrapy.org/&quot;&gt;https://scrapy.org/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Guys, that’s all from my end. You can find out code from the following repository.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/zujoio/web-scrapper-python&quot;&gt;https://github.com/zujoio/web-scrapper-python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hope you like the article. If you have any questions, please feel free to leave a comment below.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.datacamp.com/community/tutorials/web-scraping-using-python&quot;&gt;https://www.datacamp.com/community/tutorials/web-scraping-using-python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/&quot;&gt;https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.python.org/dev/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor&quot;&gt;https://docs.python.org/dev/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://scrapy.org/resources/&quot;&gt;https://scrapy.org/resources/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.scrapy.org/en/latest/intro/tutorial.html&quot;&gt;https://docs.scrapy.org/en/latest/intro/tutorial.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[That's not enough, We have to go deeper]]></title><description><![CDATA[“Life is really simple, but we insist on making it complicated.”  ― Confucius]]></description><link>https://arjun-kava.github.io//posts/thats-not-enough-we-have-to-go-deeper/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/thats-not-enough-we-have-to-go-deeper/</guid><pubDate>Thu, 09 Aug 2018 16:15:55 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“Life is really simple, but we insist on making it complicated.” ― Confucius&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When I had started to learn about &lt;strong&gt;Machine Learning&lt;/strong&gt;, &lt;strong&gt;Deep Learning&lt;/strong&gt;, and &lt;strong&gt;Neural Networks&lt;/strong&gt;, It was like finding a beam of light in a complete dark hole but you know the science of the black hole. It is a region in space in which the singularity’s gravitational force is so strong that not even light can escape its pull.&lt;/p&gt;
+&lt;p&gt;So I was in completely wrong directions rather than finding light, I need to look at &lt;em&gt;Singularity’s Gravitational&lt;/em&gt;. Then I decided to get into fundamentals rather than getting into &lt;em&gt;Math&lt;/em&gt; first.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/meme-deep-d711640323014eebfa68e4a487f0dad5-598e0.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 570px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 54.56140350877193%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAZb3YVOO0s//xAAaEAACAgMAAAAAAAAAAAAAAAABAgADESEy/9oACAEBAAEFAkchWu0bCSnKSwDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAgEFAQAAAAAAAAAAAAAAAAEhERIxUZFx/9oACAEBAAY/AqRwixvVprwwsaFC4KFw/8QAHBAAAgIDAQEAAAAAAAAAAAAAAREAMSFBUWGR/9oACAEBAAE/ISlTRs5SyaSJUjpjwCERTr6xCW+fkI4XE//aAAwDAQACAAMAAAAQ2P8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxCqYRn/xAAYEQACAwAAAAAAAAAAAAAAAAAAEQEhMf/aAAgBAgEBPxBXo4P/xAAeEAABBAIDAQAAAAAAAAAAAAABABEhYTFBUXGRgf/aAAgBAQABPxAIZUQizv6ooICABTx4j85OAdBAM5z0GkD+3zs8ojF3iDZpf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;meme-deep.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/meme-deep-d711640323014eebfa68e4a487f0dad5-598e0.jpeg&quot;
+        srcset=&quot;/static/meme-deep-d711640323014eebfa68e4a487f0dad5-16eec.jpeg 240w,
+/static/meme-deep-d711640323014eebfa68e4a487f0dad5-ecd97.jpeg 480w,
+/static/meme-deep-d711640323014eebfa68e4a487f0dad5-598e0.jpeg 570w&quot;
+        sizes=&quot;(max-width: 570px) 100vw, 570px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://knowyourmeme.com/memes/we-need-to-go-deeper&quot;&gt;knowyourmeme&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Today’s article is all about going deeper into the fancy word called ”&lt;em&gt;Convolutional Neural Network&lt;/em&gt;” and here is our roadmap.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How did computer see an image?&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Network (CNN)&lt;/li&gt;
+&lt;li&gt;Understanding at Deeper Level&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3&gt;How did computer see an image?&lt;/h3&gt;
+&lt;p&gt;The Image is nothing but &lt;em&gt;Three-dimensional array&lt;/em&gt; which contains pixel values varied from 0 to 255 as shown below where &lt;strong&gt;rows equal to the width&lt;/strong&gt;, &lt;strong&gt;cols equal to height&lt;/strong&gt; and &lt;strong&gt;depth is intensity such as RGB, HSV etc&lt;/strong&gt;. as shown in Figure 1.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/row-major-3D-414f2bf4e305a50d9687ffb116f050d4-8da64.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 799px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.81101376720902%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAC20lEQVQoz41SW0yScRT/vCy35ovrqR7bWmvVprVWT63b2mqtZAPRnDcmGl4qs5luqfEJXlJMkDGoEFNIgkQF+QQ0/ITvAwS5y02FOUHN0DlbufX0T5gvbj10trNzdrbzO7/ffgeK0yjQv2K5mZly2CZqxmFC69Ta476m1syYQpnpAiDN+7CAuFTz8lVUImuKzqB3kxtKEiEbp5Y3uDic+uVJ5Fl4THUiMXc+KsiyEB5X2Bqan/ikchra3XPWXliI++G2eGR8fG/VgFEm6kgav5AJduwoCJlnJZA1l3zRV0TZ2+3jgt+oAWyYMWBSfclOACqqyTnY60rgFvaCH3YczCrFBJ6I4lVPvwMevx54PManz7/CCv68BJjWHMASsg9AQ5ziG6OfaoFp7uN+KGD8sxA0/xSppZcTgJVs2rV2TRcYMkuAM+YCclSTS/usioqcIeDa3gPzoaUGci/ObZG6t8fMkR2De/UtRBsR32zRTwOZbxH4tuPA6F3Zn9A5zyUAq3mGC7UD9jhbHdjSe2K/VAbPLVKXi8SUBV+MYSv1WmsweVgwKj3Gk/PS+4ZZqVAhy3GaJgiyubrNbt3yPjy2CbKP2gNSDyxKgU62pkH/GUk3ZRCUhd+/k2cjEvItpaUUGx2mOHtYZd6OjmLfoKg4pNEUhTXTZUaVjNo+3ljRMdFY0alqKP8w01sinuMXiQ18qmim/yp0+8z5xDuky+49uG4n5lndRDLuJOZhEXoLtt7Xja11MfHo8CC+oZ/Gd/V6zKOVYgxlFQYraRhjsgobNLLdMovQK7cORAVqFgMCACRpvuG0XTJGzAxLbIGOrljoNRIrTOY74Hz+AlwnccE9k364UxWA+5EAPOtYp6MHaXB/Z3AFc6eO6A1teZKSFTrpFdMiqrUtYQjmRZFGsQkpF9gQqmAeaR5xILwpP8JBAsh7rQ+ZcYSRb84wMute1QpHp3ISCokl+RkJcn8BA+qaTKRPk0wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;row-major-3D.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/row-major-3D-414f2bf4e305a50d9687ffb116f050d4-8da64.png&quot;
+        srcset=&quot;/static/row-major-3D-414f2bf4e305a50d9687ffb116f050d4-c0166.png 240w,
+/static/row-major-3D-414f2bf4e305a50d9687ffb116f050d4-cc06e.png 480w,
+/static/row-major-3D-414f2bf4e305a50d9687ffb116f050d4-8da64.png 799w&quot;
+        sizes=&quot;(max-width: 799px) 100vw, 799px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 1(Image Source: &lt;a href=&quot;https://eli.thegreenplace.net/2015/memory-layout-of-multi-dimensional-arrays&quot;&gt;thegreenplace&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;So for our CPU / GPU, It is a bunch of integers which reflects the intensity of color which means at the end of the day everything is just a reflection of light.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Convolutional Neural Network (CNN)&lt;/h3&gt;
+&lt;p&gt;In machine learning, &lt;em&gt;a convolutional neural network (CNN, or ConvNet)&lt;/em&gt; is a class of deep, feed-forward artificial neural networks, most commonly applied to analyzing visual imagery. - &lt;em&gt;Wikipedia&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I think the above definition is perfect but more complex to digest, so here is the much simpler. CNN is very similar to Neural Network but it takes images as input and allows us to encode certain properties into the architecture. (if you don’t know the neural network, please read this article &lt;a href=&quot;https://arjun-kava.github.io/posts/prove-simplification-of-neural-network/&quot;&gt;Prove Simplification of Artificial Neural Network&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;In more general words, CNN extracts features from the image and store it as weights which are used to predict the purpose of the image stands for. &lt;/p&gt;
+&lt;p&gt;Technically, It is a structured stack of Neural Network Layers responsible for extracting the feature from an image and which network has seen to predict possibilities of the unseen image.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cnn-5dbb96f16b91ac0639a42e2dfbd0d901-f9099.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 33.78486055776892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdyiAf/EABUQAQEAAAAAAAAAAAAAAAAAABBB/9oACAEBAAEFAof/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAZEAADAQEBAAAAAAAAAAAAAAAAAREhMVH/2gAIAQEAAT8hVSV76VzotP/aAAwDAQACAAMAAAAQ/wD/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAQADAQEAAAAAAAAAAAAAAAEAESGRgf/aAAgBAQABPxAkXk0GPkEWORUu3s//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;cnn.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cnn-5dbb96f16b91ac0639a42e2dfbd0d901-d564d.jpg&quot;
+        srcset=&quot;/static/cnn-5dbb96f16b91ac0639a42e2dfbd0d901-865fd.jpg 240w,
+/static/cnn-5dbb96f16b91ac0639a42e2dfbd0d901-d40a0.jpg 480w,
+/static/cnn-5dbb96f16b91ac0639a42e2dfbd0d901-d564d.jpg 960w,
+/static/cnn-5dbb96f16b91ac0639a42e2dfbd0d901-f9099.jpg 1255w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 2(Image Source: &lt;a href=&quot;https://www.mathworks.com/content/mathworks/www/en/solutions/deep-learning/convolutional-neural-network/jcr:content/mainParsys/band_copy_copy_14735_1026954091/mainParsys/columns_1606542234_c/2/image.adapt.full.high.jpg/1530247928116.jpg&quot;&gt;mathworks&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Take a look at Figure 2 which exactly describes the working methodology of &lt;em&gt;CNN&lt;/em&gt; extraction of a feature from the image of a car. Some of the words in the above image are complex to understand but, at the end of this article everything will be more meaningful&lt;/p&gt;
+&lt;h3&gt;Understanding at Deeper Level&lt;/h3&gt;
+&lt;p&gt;CNN is made up of layers. Each layer transforms one volume of activations to another through a differentiable function. CNN use mainly three type of layers which are responsible to extract deeper features from a particular class of image: &lt;strong&gt;Convolutional Layer&lt;/strong&gt;, &lt;strong&gt;Pooling Layer&lt;/strong&gt;, and &lt;strong&gt;Fully-Connected Layer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s take a closer look at functionalities of each layer:&lt;/p&gt;
+&lt;h4&gt;The Convolutional Layer&lt;/h4&gt;
+&lt;p&gt;As we had seen above that an image is a matrix of a pixel. The convolutional layer operates these pixels.&lt;/p&gt;
+&lt;p&gt;The convolutional layer does multiple &lt;strong&gt;Convolutional Operations&lt;/strong&gt; on multiple channels of image i.e. depth. Each convolution operation has a kernel which could be matrix smaller than height and width of the original image. Each kernel have their specific tasks such as &lt;strong&gt;sharpening&lt;/strong&gt;, &lt;strong&gt;blurring&lt;/strong&gt;, &lt;strong&gt;edge detection&lt;/strong&gt;, and many more&lt;/p&gt;
+&lt;p&gt;Take a look at Figure 3, where each channel of the original image is applied to some kernels to generate another matrix which reduces the parameters of image and extracts features from it. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/cnn-layer-7220e04048d58962e709b997f84792ac.gif&quot; alt=&quot;cnn-layer.gif&quot;&gt;
+Figure 3(Image Source: &lt;a href=&quot;http://machinelearninguru.com/computer_vision/basics/convolution/convolution_layer.html&quot;&gt;machinelearninguru&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The following kernel sharpens the image by multiplying each element of the kernel with its the corresponding element of the image matrix.&lt;/p&gt;
+&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&quot;true&quot;&gt;[&lt;/mo&gt;&lt;mtable&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&quot;0&quot; displaystyle=&quot;false&quot;&gt;&lt;mrow&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo fence=&quot;true&quot;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;kernel = \begin{bmatrix}
+   0 &amp;amp; -1 &amp;amp; 0 \\
+   -1 &amp;amp; 5 &amp;amp; -1 \\
+   0 &amp;amp; -1 &amp;amp; 0 
+\end{bmatrix}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:2.05002em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:3.60004em;vertical-align:-1.55002em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.03148em;&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.02778em;&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mord mathit&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;mord mathit&quot; style=&quot;margin-right:0.01968em;&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;minner&quot;&gt;&lt;span class=&quot;mopen&quot;&gt;&lt;span class=&quot;delimsizing mult&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:2.05002em;&quot;&gt;&lt;span style=&quot;top:-2.2500000000000004em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.1550000000000002em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;delimsizinginner delim-size4&quot;&gt;&lt;span&gt;⎣&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-4.05002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.1550000000000002em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;delimsizinginner delim-size4&quot;&gt;&lt;span&gt;⎡&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.55002em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mtable&quot;&gt;&lt;span class=&quot;col-align-c&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:2.05em;&quot;&gt;&lt;span style=&quot;top:-4.21em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.0099999999999993em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-1.8099999999999994em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.5500000000000007em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;arraycolsep&quot; style=&quot;width:0.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;arraycolsep&quot; style=&quot;width:0.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;col-align-c&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:2.05em;&quot;&gt;&lt;span style=&quot;top:-4.21em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.0099999999999993em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;5&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-1.8099999999999994em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.5500000000000007em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;arraycolsep&quot; style=&quot;width:0.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;arraycolsep&quot; style=&quot;width:0.5em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;col-align-c&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:2.05em;&quot;&gt;&lt;span style=&quot;top:-4.21em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.0099999999999993em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;−&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-1.8099999999999994em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.5500000000000007em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;&lt;span class=&quot;delimsizing mult&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:2.05002em;&quot;&gt;&lt;span style=&quot;top:-2.2500000000000004em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.1550000000000002em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;delimsizinginner delim-size4&quot;&gt;&lt;span&gt;⎦&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-4.05002em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.1550000000000002em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;delimsizinginner delim-size4&quot;&gt;&lt;span&gt;⎤&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.55002em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/sharpen-kernel-bfa2054c9f91e221f78f4d97705b1f08-e9daa.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.65676077265973%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHqaLmikf/EABgQAAMBAQAAAAAAAAAAAAAAAAECEBET/9oACAEBAAEFAgrdMon/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8BXZ//xAAXEAEAAwAAAAAAAAAAAAAAAAARASBR/9oACAEBAAY/Alky3//EABkQAAIDAQAAAAAAAAAAAAAAAAABESExEP/aAAgBAQABPyFOUhQmyx4a5//aAAwDAQACAAMAAAAQw8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8QJS//xAAeEAEAAQQCAwAAAAAAAAAAAAABEQAhMUEQUWFxof/aAAgBAQABPxBCmnJsfagwnOzVBAuvnusnrk//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;sharpen-kernel.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sharpen-kernel-bfa2054c9f91e221f78f4d97705b1f08-d564d.jpg&quot;
+        srcset=&quot;/static/sharpen-kernel-bfa2054c9f91e221f78f4d97705b1f08-865fd.jpg 240w,
+/static/sharpen-kernel-bfa2054c9f91e221f78f4d97705b1f08-d40a0.jpg 480w,
+/static/sharpen-kernel-bfa2054c9f91e221f78f4d97705b1f08-d564d.jpg 960w,
+/static/sharpen-kernel-bfa2054c9f91e221f78f4d97705b1f08-e9daa.jpg 1346w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 4(Image Source: &lt;a href=&quot;http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/3.JPG&quot;&gt;machinelearninguru&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;As shown in  Figure 4, &lt;strong&gt;A sliding window&lt;/strong&gt; with same width and height multiplied with kernel and place multiplication on the same corresponding element of an original image. &lt;/p&gt;
+&lt;p&gt;The Output of filter can be easily visualized from the Figure 5 by comparing &lt;strong&gt;left(the original image)&lt;/strong&gt; and &lt;strong&gt;right(the shapen image)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/sharp-filter-applied-71a4fc07b6d58e81e5fb726836f9217e-5992f.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 600px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAB2KGzSkThr//EABoQAQACAwEAAAAAAAAAAAAAAAECBAADEUH/2gAIAQEAAQUC2WiCWeam2qvZSc8//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwHKIj//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwFH/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQAQESExUf/aAAgBAQAGPwKBaBO8WNDf/8QAGxABAAICAwAAAAAAAAAAAAAAAQARITFBYcH/2gAIAQEAAT8hcBfV9wS1r1FiUOIuTd7lFLJAsM//2gAMAwEAAgADAAAAEPTv/8QAFhEBAQEAAAAAAAAAAAAAAAAAACFh/9oACAEDAQE/EIMn/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8QiX//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhMUFh/9oACAEBAAE/EJbQQHn1l4zVHQI1ls66EdeYom9uVb1x5kjXiFVDLQ7TP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;sharp-filter-applied.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sharp-filter-applied-71a4fc07b6d58e81e5fb726836f9217e-5992f.jpg&quot;
+        srcset=&quot;/static/sharp-filter-applied-71a4fc07b6d58e81e5fb726836f9217e-9995a.jpg 240w,
+/static/sharp-filter-applied-71a4fc07b6d58e81e5fb726836f9217e-b7826.jpg 480w,
+/static/sharp-filter-applied-71a4fc07b6d58e81e5fb726836f9217e-5992f.jpg 600w&quot;
+        sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 5(Image Source: &lt;a href=&quot;http://fotokto.ru/blogs/3-krutih-sposoba-ispolzovat-filtr-v-fotoshope-pod-nazvaniem-cvetovoi-kontrast-high-pass-23193.html&quot;&gt;fotokto&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Now the problem arises that, These kernel operations cleared border row values from the original matrix which can result into loss of data To overcome this a problem of &lt;strong&gt;padding parameter&lt;/strong&gt; introduced with &lt;strong&gt;stride parameter&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The padding parameter adds another border rows and columns to the actual matrix initialized as zero which made possible to fill empty border rows and columns and doesn’t add any disturbance to the actual image also. The stride parameter means the intensity of a sliding window for multiplication such as 2 pixels i.e. two column and two-row movement each time. As shown in Figure 6&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/sharpen-kernel-pad-stride-ef669fdbcf9992e7ed1e53ff4c5db333-61eb2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.86764705882353%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHUsNADB//EABkQAAIDAQAAAAAAAAAAAAAAAAECAAMQEf/aAAgBAQABBQKtSs5oz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPwE1f//EABUQAQEAAAAAAAAAAAAAAAAAABEg/9oACAEBAAY/Aiv/xAAZEAEAAgMAAAAAAAAAAAAAAAABEBEAMUH/2gAIAQEAAT8hobqXgjsOpf/aAAwDAQACAAMAAAAQq8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8QVVz/xAAaEAADAQEBAQAAAAAAAAAAAAABESEAMRBR/9oACAEBAAE/EFJcMjUifXMz90EtRR55/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;sharpen-kernel-pad-stride.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sharpen-kernel-pad-stride-ef669fdbcf9992e7ed1e53ff4c5db333-d564d.jpg&quot;
+        srcset=&quot;/static/sharpen-kernel-pad-stride-ef669fdbcf9992e7ed1e53ff4c5db333-865fd.jpg 240w,
+/static/sharpen-kernel-pad-stride-ef669fdbcf9992e7ed1e53ff4c5db333-d40a0.jpg 480w,
+/static/sharpen-kernel-pad-stride-ef669fdbcf9992e7ed1e53ff4c5db333-d564d.jpg 960w,
+/static/sharpen-kernel-pad-stride-ef669fdbcf9992e7ed1e53ff4c5db333-61eb2.jpg 1360w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 6(Image Source: &lt;a href=&quot;http://machinelearninguru.com/_images/topics/computer_vision/basics/convolution/6.JPG&quot;&gt;machinelearninguru&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Generally, we use multiple stacks of filters to minimize the number of output called &lt;strong&gt;“Activation Map”&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For example, we have an input image of size &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;32*32*3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;. And we apply 10 filters of size &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;5&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;5*5*3&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; with valid padding. The output would have the dimensions as &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;8&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;28*28*10&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;. (Figure 7)&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/activation-map-e947aa4d42a0f6bce5227ce7a8bd04e7-00f86.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHaklsKP//EABgQAQEAAwAAAAAAAAAAAAAAAAECERMh/9oACAEBAAEFAjOyxZDn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Bh//EABkQAAEFAAAAAAAAAAAAAAAAAAABECIxUf/aAAgBAQAGPwJcI23/xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhQVH/2gAIAQEAAT8hF95yNRV6lRHWp//aAAwDAQACAAMAAAAQe8//xAAWEQEBAQAAAAAAAAAAAAAAAAABECH/2gAIAQMBAT8QXZ//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EDhIMv/EABoQAQADAAMAAAAAAAAAAAAAAAEAESFBUaH/2gAIAQEAAT8QY00ALy84lnVTDWXvkZrQBe2f/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;activation-map.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/activation-map-e947aa4d42a0f6bce5227ce7a8bd04e7-00f86.jpg&quot;
+        srcset=&quot;/static/activation-map-e947aa4d42a0f6bce5227ce7a8bd04e7-6a66e.jpg 240w,
+/static/activation-map-e947aa4d42a0f6bce5227ce7a8bd04e7-bc76f.jpg 480w,
+/static/activation-map-e947aa4d42a0f6bce5227ce7a8bd04e7-00f86.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 7(Image Source: &lt;a href=&quot;https://www.analyticsvidhya.com/blog/2017/06/architecture-of-convolutional-neural-networks-simplified-demystified/&quot;&gt;analyticsvidhya&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The output of multiple convolution filters stack might be something like below (Figure 8) which can not be understood through human eyes!&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-2b5ef.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 37.563110063951534%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGgUD//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAEFAn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAWEAADAAAAAAAAAAAAAAAAAAAAARD/2gAIAQEAAT8hiP/aAAwDAQACAAMAAAAQ8B//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGBABAAMBAAAAAAAAAAAAAAAAAQARUTH/2gAIAQEAAT8QpxlOMLXGf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;multi-filter-apply.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-d564d.jpg&quot;
+        srcset=&quot;/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-865fd.jpg 240w,
+/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-d40a0.jpg 480w,
+/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-d564d.jpg 960w,
+/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-c67c1.jpg 1440w,
+/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-667be.jpg 1920w,
+/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-85f07.jpg 2880w,
+/static/multi-filter-apply-271858c831c9595953c6a057f2236a37-2b5ef.jpg 2971w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 8(Image Source:&lt;a href=&quot;https://jhui.github.io/2017/03/16/CNN-Convolutional-neural-network/&quot;&gt;jhui.github.io&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Each Convolution generally followed by &lt;strong&gt;Activation Function&lt;/strong&gt; which ensures some positive energy into the network by maintaining the weight of each neuron with specified bias. Technically, Activation function decides whether neuron should fire or not based on the sum of the weights. Example of Activation function are Relu, Sigmoid etc.(for more info. read &lt;a href=&quot;https://arjun-kava.github.io/posts/prove-simplification-of-neural-network/&quot;&gt;prove-simplification-of-neural-network&lt;/a&gt;)&lt;/p&gt;
+&lt;h4&gt;The Pooling Layer&lt;/h4&gt;
+&lt;p&gt;The &lt;strong&gt;Pooling Layer&lt;/strong&gt; is responsible for reducing the &lt;em&gt;spatial size of the image&lt;/em&gt; which is independent of each depth dimension i.e. The &lt;em&gt;depth&lt;/em&gt; of the image remains unchanged.&lt;/p&gt;
+&lt;p&gt;As shown in the below figure, &lt;strong&gt;The Max pooling&lt;/strong&gt; is used on &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;224*224*64&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; dimensional image to convert it into &lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mn&gt;6&lt;/mn&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;112*112*64&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.64444em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;strut bottom&quot; style=&quot;height:0.64444em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;∗&lt;/span&gt;&lt;span class=&quot;mord rule&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; dimensions where the &lt;em&gt;depth remained unchanged&lt;/em&gt;, Here we have take stride as 2 and pooling size also as 2(Figure 9).&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/pooling-max-0a9e61168998018e9a4df3f4ffd3a3d3-26408.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 29.21686746987952%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2LCwf//EABcQAAMBAAAAAAAAAAAAAAAAAAECECH/2gAIAQEAAQUCTVAn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAARDR/9oACAEBAAY/AhX/AP/EABgQAQADAQAAAAAAAAAAAAAAAAEAESFR/9oACAEBAAE/IU4q2HF2U9n/2gAMAwEAAgADAAAAEHPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGRAAAwEBAQAAAAAAAAAAAAAAAREhMQBB/9oACAEBAAE/EHqRE2mwkarnM40cvVPlyZ3/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pooling-max.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/pooling-max-0a9e61168998018e9a4df3f4ffd3a3d3-d564d.jpg&quot;
+        srcset=&quot;/static/pooling-max-0a9e61168998018e9a4df3f4ffd3a3d3-865fd.jpg 240w,
+/static/pooling-max-0a9e61168998018e9a4df3f4ffd3a3d3-d40a0.jpg 480w,
+/static/pooling-max-0a9e61168998018e9a4df3f4ffd3a3d3-d564d.jpg 960w,
+/static/pooling-max-0a9e61168998018e9a4df3f4ffd3a3d3-26408.jpg 996w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 9(Image Source: &lt;a href=&quot;https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/pooling_layer.html&quot;&gt;leonardoaraujosantos&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The output of pooling might same as shown in below Figure 10 from &lt;em&gt;the right to the left&lt;/em&gt; .&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/max_pooling_example-9c8c55703807fb48a3a6fcf3f181adad-6069c.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 16.056118472330475%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAADABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdWkEIP/xAAWEAEBAQAAAAAAAAAAAAAAAAAAAkH/2gAIAQEAAQUCtTf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAEAAwAAAAAAAAAAAAAAAAABABAh/9oACAEBAAY/AqdZ/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAExIVFh/9oACAEBAAE/IaZL1xm+h0//2gAMAwEAAgADAAAAEPPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAERUWGhwf/aAAgBAQABPxDY4M1AjIyaZbSP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;max_pooling_example.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/max_pooling_example-9c8c55703807fb48a3a6fcf3f181adad-d564d.jpg&quot;
+        srcset=&quot;/static/max_pooling_example-9c8c55703807fb48a3a6fcf3f181adad-865fd.jpg 240w,
+/static/max_pooling_example-9c8c55703807fb48a3a6fcf3f181adad-d40a0.jpg 480w,
+/static/max_pooling_example-9c8c55703807fb48a3a6fcf3f181adad-d564d.jpg 960w,
+/static/max_pooling_example-9c8c55703807fb48a3a6fcf3f181adad-6069c.jpg 1283w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 10(Image Source: &lt;a href=&quot;http://tomaszgolan.github.io/reveal_talks/html/mlmpr_warsaw17.html&quot;&gt;tomaszgolan&lt;/a&gt;)&lt;/p&gt;
+&lt;h3&gt;The Output Layer / The Fully-Connected Layer&lt;/h3&gt;
+&lt;p&gt;At the end of &lt;strong&gt;Multiple Convolution + Activation and padding&lt;/strong&gt;, It came to possible output in the form of entities or a class. The convolution and the pooling layers are only responsible to extract features and reduce the number of parameters of an original image. However, the Final output is generated by The Fully Connected Layer which is equal to the number of classes in some case or number of possibilities in another case.&lt;/p&gt;
+&lt;p&gt;The convolution layers complete the forward pass but, The output layer has a loss function which is responsible to backpropagate and updates weights as well as biases for error and loss reduction.&lt;/p&gt;
+&lt;p&gt;At the end of output possibilities, CNN applies logistic regression which is responsible to assign probabilities to each class in either binary or multiclass problem such as &lt;em&gt;Softmax&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Figure 11 describes the whole procedure in one shot through the classification problem. The red portion called ”&lt;strong&gt;Feature Extraction&lt;/strong&gt;” is our Convolutional + Pooling layers responsible for extracting parameter by downsampling the network and The purple portion called ”&lt;strong&gt;Classification&lt;/strong&gt;” which is the fully connected layer with logistic regression responsible for predicting label.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/convolutional_neural_network-aa4f1c02e44489bacdc216a1d5f08e06-94a1a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 560px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 45.17857142857143%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHZXZWNID//xAAZEAEAAgMAAAAAAAAAAAAAAAABAjEQEUH/2gAIAQEAAQUCky2MsNcK/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAARAhAP/aAAgBAQAGPwKCasr/xAAZEAEBAQADAAAAAAAAAAAAAAABADERUWH/2gAIAQEAAT8hCuNHuw+rGW0Vnf/aAAwDAQACAAMAAAAQBA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAeEAEAAgEEAwAAAAAAAAAAAAABABExIUFRoRBx8P/aAAgBAQABPxAuEBHLVqV6irQfG5XP3MVhc7zqTt+J/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;convolutional_neural_network.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/convolutional_neural_network-aa4f1c02e44489bacdc216a1d5f08e06-94a1a.jpg&quot;
+        srcset=&quot;/static/convolutional_neural_network-aa4f1c02e44489bacdc216a1d5f08e06-c10d1.jpg 240w,
+/static/convolutional_neural_network-aa4f1c02e44489bacdc216a1d5f08e06-9ac75.jpg 480w,
+/static/convolutional_neural_network-aa4f1c02e44489bacdc216a1d5f08e06-94a1a.jpg 560w&quot;
+        sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Figure 11(Image Source: &lt;a href=&quot;https://developer.nvidia.com/discover/convolutional-neural-network&quot;&gt;developer.nvidia.com&lt;/a&gt;)&lt;/p&gt;
+&lt;h3&gt;Foot Notes&lt;/h3&gt;
+&lt;p&gt;I hope you got the idea behind the Convolution Neural Networks without getting into complex mathematics. Further, in next articles, I will discuss implementation details of neural network till then stay tuned.&lt;/p&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://cs231n.github.io/convolutional-networks/&quot;&gt;cs231n.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://machinelearninguru.com/computer_vision/basics/convolution/convolution_layer.html&quot;&gt;machinelearninguru.com&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.analyticsvidhya.com/blog/2017/06/architecture-of-convolutional-neural-networks-simplified-demystified/&quot;&gt;www.analyticsvidhya.com&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Write, Work, Read and Repeat]]></title><description><![CDATA[“Perhaps when we find ourselves wanting everything, it is because we are dangerously close to wanting nothing.” ― Sylvia Plath]]></description><link>https://arjun-kava.github.io//posts/write-work-read-and-repeat/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/write-work-read-and-repeat/</guid><pubDate>Sat, 28 Jul 2018 14:25:02 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;“Perhaps when we find ourselves wanting everything, it is because we are dangerously close to wanting nothing.” ― Sylvia Plath&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Today’s article is all about managing yourself and follows that &lt;code class=&quot;language-text&quot;&gt;long-term goal&lt;/code&gt; sheet flows through our mind every day but still needs to move from &lt;code class=&quot;language-text&quot;&gt;paper to production&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/productivity-bc0551d63f518d5caf5d60eb52010504.gif&quot; alt=&quot;productivity.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Roadmap&lt;/h3&gt;
+&lt;p&gt;Sometimes we are too much worried about work, family, and relations while we forgot to explore our self. I have been working on my productivity during the last six months and I found a concept that made me more &lt;code class=&quot;language-text&quot;&gt;productive&lt;/code&gt; than ever.&lt;/p&gt;
+&lt;p&gt;Before these six months, I was the &lt;code class=&quot;language-text&quot;&gt;dump&lt;/code&gt;. I even didn’t know the basic criteria of time management and productivity, So How The Beast inside me is more active now? Let’s take a closer look at my experience. &lt;/p&gt;
+&lt;h4&gt;The article is divided into the following major parts:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Rule of Productivity&lt;/li&gt;
+&lt;li&gt;Writing&lt;/li&gt;
+&lt;li&gt;Working&lt;/li&gt;
+&lt;li&gt;Reading&lt;/li&gt;
+&lt;li&gt;Repeat&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2&gt;The Golden Rule Of Productivity&lt;/h2&gt;
+&lt;p&gt;There is a simple rule of productivity but, Do you know most of the people struggles to implement simple rules! Why? because They are so simple.&lt;/p&gt;
+&lt;h4&gt;The Golden Rule&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Write(20), Work(60), Read(20).&lt;/li&gt;
+&lt;li&gt;Repeat Rule Number 1 Every day.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Let me explain above rules in much more deeper meaning. The Earth requires 24 hours to do a spin that’s why we have &lt;code class=&quot;language-text&quot;&gt;24 hours&lt;/code&gt; in a normal day. The whole day has a &lt;code class=&quot;language-text&quot;&gt;16:8 hour&lt;/code&gt; ratio means &lt;code class=&quot;language-text&quot;&gt;16 hours without sleep&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;8 with sleep&lt;/code&gt;(worst case). &lt;/p&gt;
+&lt;p&gt;I am more interested in these 16 hours where if we minus 2 hours from it for getting shower, breakfast, lunch, dinner still we have 14 hours to manage daily work life. Now I am focusing on that &lt;strong&gt;Golden 14 Hours&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Higher Productivity is dependent upon two major factors &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Time &lt;/li&gt;
+&lt;li&gt;Energy&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We have that golden 14 hours so, I am not more concerned about &lt;code class=&quot;language-text&quot;&gt;Time&lt;/code&gt; but &lt;code class=&quot;language-text&quot;&gt;Energy&lt;/code&gt; might worry me more than anything. That’s why Rule Number 1 is more generous for our perspective. &lt;/p&gt;
+&lt;p&gt;I have prioritized every word with weights. From left to right energy as per levels go down, meaning We need more energy for writing, lesser than it for day to day job and much less for reading. On this note I had scheduled my golden 14 hours into 2.8:8.4:2.8 hours ratio for Writing, Working and Reading respectively, Bingo I am done with energy also.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Writing&lt;/h2&gt;
+&lt;p&gt;Writing has more energy consumption than the other two(I am taking mental energy as a unit). Here, Writing doesn’t mean a job as a writer but writing for yourself.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-bea9a.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAUsZPl4ScF//xAAaEAACAgMAAAAAAAAAAAAAAAABAgMSITEy/9oACAEBAAEFArSsowshSyabmUm//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhABAAEFAAAAAAAAAAAAAAAAAQATIEFCUf/aAAgBAQAGPwKk52gcsZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABABEhMUH/2gAIAQEAAT8hpxp8MlkW6ArDbGa3szcnVT//2gAMAwEAAgADAAAAEJgf/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EDV//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAMBAQEBAAAAAAAAAAAAAQARMSFRQXH/2gAIAQEAAT8QWS5TLXx/YEwxFqGx+Ma9qJr5J0Y6uDWxF732f//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;writing.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-d564d.jpg&quot;
+        srcset=&quot;/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-865fd.jpg 240w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-d40a0.jpg 480w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-d564d.jpg 960w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-c67c1.jpg 1440w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-667be.jpg 1920w,
+/static/writing-9207dfeacaed68ba0a48ee82a7b08ef4-bea9a.jpg 2560w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;http://www.guoguiyan.com/writing-wallpapers.html&quot;&gt;guoguiyan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In other words, sharing your knowledge with the community and of course people around you. It can be anything writing a Journal, Blog, Answer some questions on Quora or Reddit, Help people to resolve their Bugs on Github etc. &lt;/p&gt;
+&lt;p&gt;It does make you more proactive and gives you much deeper understanding of the topic written. For me, It is a new passion while exploring new learnings and also my resolution for this year.&lt;/p&gt;
+&lt;p&gt;I woke up early 5:30 AM in the morning to just write these stuff. I put 15 min timers for two and half hours to be more productive on my writings and paying more attention to write rather than being disturbed by other stuff.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Working&lt;/h2&gt;
+&lt;p&gt;Most amazing part of life is &lt;code class=&quot;language-text&quot;&gt;working for a dream&lt;/code&gt;. With the highest rank in a list also more responsibility lies here. I am very serious about spending these hours. &lt;/p&gt;
+&lt;p&gt;First of all, I wrote tasks for a day and &lt;code class=&quot;language-text&quot;&gt;prioritize&lt;/code&gt; on basis of importance and of course how much time and energy requires for each. I prefer to use &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt; which saves most of my time.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-667be.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWJQpIP//EABoQAAICAwAAAAAAAAAAAAAAAAECACEDEiL/2gAIAQEAAQUCXHRAEZbU0x62M//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAEQICH/2gAIAQEABj8Cg4v/xAAYEAEBAQEBAAAAAAAAAAAAAAABABExQf/aAAgBAQABPyEp2AyHxKYt9A4S1//aAAwDAQACAAMAAAAQz/8A/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERMSFBgf/aAAgBAQABPxB1G1ReoIdd6vh4TDHHDGUJVEB8yH//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;working.jpg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-d564d.jpg&quot;
+        srcset=&quot;/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-865fd.jpg 240w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-d40a0.jpg 480w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-d564d.jpg 960w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-c67c1.jpg 1440w,
+/static/working-ce5b4a2d738d8f4c9c9d2537d060f34f-667be.jpg 1920w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://wallpaperwire.com/funny-working-man-nice-wallpaper/&quot;&gt;wallpaperwire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then I decide exact durations for each task but some of them are repetitive for each day with fix bound durations. I set &lt;code class=&quot;language-text&quot;&gt;hour-to-hour timers&lt;/code&gt; for reminding me to pay more attention to task rather than being disturbed by Notification, Mail or anything. After completing a single task I check messages, emails and then moves to the next one.&lt;/p&gt;
+&lt;p&gt;As my energy levels go down less task remains on my hand. At the end of the day I &lt;code class=&quot;language-text&quot;&gt;review today&amp;#39;s work&lt;/code&gt; and find out anything missing at the moment.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.” ― George R.R. Martin, A Dance with Dragons&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I have a great passion for reading and also written a huge list of &lt;code class=&quot;language-text&quot;&gt;a wish to read books&lt;/code&gt;. Back to the topic, Here reading means reading books, give time to learn new things, watch a course on &lt;a href=&quot;https://www.coursera.org/&quot;&gt;Coursera&lt;/a&gt; more generous learning something.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/reading-51f49a80d041ef409020af30a3238865-667be.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAENZayMkn//xAAZEAEAAgMAAAAAAAAAAAAAAAABAAIQERP/2gAIAQEAAQUChVc9mWdv/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BJ//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQIBAT8BNxf/xAAZEAACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQEABj8CMnEjlH//xAAaEAADAQADAAAAAAAAAAAAAAAAARExEEFh/9oACAEBAAE/IRC2lnGGMCXU0XdL4P/aAAwDAQACAAMAAAAQVB//xAAWEQEBAQAAAAAAAAAAAAAAAAABEEH/2gAIAQMBAT8QBs//xAAWEQADAAAAAAAAAAAAAAAAAAAQIVH/2gAIAQIBAT8QVQ//xAAdEAACAQQDAAAAAAAAAAAAAAABEQAhMUFREGGx/9oACAEBAAE/EIqiuqOHcQwMbiTWWSlBrqH4+cPZ/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;reading.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/reading-51f49a80d041ef409020af30a3238865-d564d.jpeg&quot;
+        srcset=&quot;/static/reading-51f49a80d041ef409020af30a3238865-865fd.jpeg 240w,
+/static/reading-51f49a80d041ef409020af30a3238865-d40a0.jpeg 480w,
+/static/reading-51f49a80d041ef409020af30a3238865-d564d.jpeg 960w,
+/static/reading-51f49a80d041ef409020af30a3238865-c67c1.jpeg 1440w,
+/static/reading-51f49a80d041ef409020af30a3238865-667be.jpeg 1920w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;http://tkpurwo.com/reading-desktop-wallpaper/reading-desktop-wallpaper-inspirational-funny-image-free-hd-wallpapers-page-0/&quot;&gt;tkpurwo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After the struggle of six months, I found precisely that reading has the most spectacular effect on my productivity, mindset, and everything I thought. After reading these books I have profound my maturity on another level which helped me to take the hardest decisions of my life.&lt;/p&gt;
+&lt;p&gt;I generally prefer to read books on a topic where I struggled more such as &lt;code class=&quot;language-text&quot;&gt;Rich Dad Poor Dad&lt;/code&gt;(the struggle of saving money), &lt;code class=&quot;language-text&quot;&gt;Zero to One&lt;/code&gt;(the struggle of starting startup), &lt;code class=&quot;language-text&quot;&gt;How to Influence People&lt;/code&gt;(the struggle for selling something).&lt;/p&gt;
+&lt;p&gt;I also read with my friend named &lt;code class=&quot;language-text&quot;&gt;&amp;quot;Little Yellow Marker&amp;quot;&lt;/code&gt; for marking lines which strike most to my head. This method is very helpful because while reading the chapter second time I just have to look at major marked portions and My mind flows with everything I had read.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Repeating&lt;/h2&gt;
+&lt;p&gt;Generally, I am working at the office in weekends which gave me another one and a half day to focus on writing, reading and of course, planning more stuff as well as review the whole week activities.&lt;/p&gt;
+&lt;p&gt;Nowadays I focus on review my self on a weekly basis which helped me a lot to &lt;code class=&quot;language-text&quot;&gt;correct my past mistakes&lt;/code&gt; in a future work.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-8bea8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABKklEQVQoz51SS07DMBTMiVBbiKMacQU2JaTAklWF2JQ6bNw4vQCCpICEhIo4GBTyWTuJ46Zd8dwGSCK6QRpZ9vjNm5GfNezmNUykQoPcwmu1a1gd3nU4diulaiPxeMPn1RbaT0XXSdF10CHRLomRHcCxdCv5GK50O8AsVb0azlCBKLf8hektDJogMseuwCzTyRzR5PRhefa4OmBc6WvOqj2Hxta0OH8Sly/C8qVOBSJvAJ1mJ/dF7za/mMnBbLUzDPdZsjGviuNjvxi+isGzMD0QZ2vx+x7N+tOi78uju/zwZtkhIa6Jv2MblJteATDGCaTFDGKD/4exjg0AD9SMXZqnyP5sj8L2KILN74Mx4IPWVdQahcCrB5vIv0el5tEYSTnCBG8d1b8+yRcWBVEIN0sQ1gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;repeat.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-c83f1.png&quot;
+        srcset=&quot;/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-569e3.png 240w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-93400.png 480w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-c83f1.png 960w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-23e13.png 1440w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-10d8f.png 1920w,
+/static/repeat-da15ec599c3a2f22114d92ba368f9ec6-8bea8.png 2048w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://nozbe.com/blog/repeating_tasks/&quot;&gt;nozbe&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I change the above ratio sometimes due to &lt;code class=&quot;language-text&quot;&gt;the hard deadline&lt;/code&gt; and some more important stuff but I think maintaining average is the best part of my journey.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Foot Notes&lt;/h2&gt;
+&lt;p&gt;I am still learning about productivity and going to change my schedule as per my need. If you feel I have to change my schedule which can make me more productive. Please comment below your thoughts about it.&lt;/p&gt;
+&lt;p&gt;I am managing &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt; boards for Writing, Reading, Tasking, New Year Resolution, for Everything I want to plan. I will write “How to plan those boards” in next articles. till then Happy Exploring.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How To Create Successfull Blog In Hour]]></title><description><![CDATA[Want to start blog? Need simple process that can be completed in 60 minutes?]]></description><link>https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/how-to-create-successfull-blog-in-hour/</guid><pubDate>Wed, 25 Jul 2018 16:26:00 GMT</pubDate><content:encoded>&lt;p&gt;Want to start blog?
+Need simple process that can be completed in 60 minutes?&lt;/p&gt;
+&lt;p&gt;Starting a blog seems to hard but not really much harder, if you have right choice on tools. Today we are going to create a starter blog with comments and subscription, isn’t it amazing? yeah, let’s get start it.&lt;/p&gt;
+&lt;h3&gt;Assumptions&lt;/h3&gt;
+&lt;p&gt;I assume, You knew some basics about How &lt;code class=&quot;language-text&quot;&gt;reactjs&lt;/code&gt; works but if you don’t knew the basics start from &lt;a href=&quot;https://reactjs.org/tutorial/tutorial.html&quot;&gt;here&lt;/a&gt;. Please dont’t get too hard on it, just need to know basics of reactjs and structure of the app.&lt;/p&gt;
+&lt;h3&gt;Getting Started with Gatsby.js&lt;/h3&gt;
+&lt;p&gt;Install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; by executing following command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install --global gatsby-cli&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;above command will install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; globally which is going to helpul for createing our first blog. (Note: Node.js is required to install &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt;)&lt;/p&gt;
+&lt;h3&gt;Select Starter&lt;/h3&gt;
+&lt;p&gt;Gatsby Community provides multiple starters for creating new blog, find out from &lt;a href=&quot;https://www.gatsbyjs.org/docs/gatsby-starters/&quot;&gt;here&lt;/a&gt;. I prefer to use &lt;a href=&quot;https://lumen.netlify.com/&quot;&gt;lumen starter&lt;/a&gt; by &lt;a href=&quot;https://github.com/alxshelepenok&quot;&gt;@Alexander Shelepenok&lt;/a&gt;. ❤️ Thank you man!&lt;/p&gt;
+&lt;h3&gt;install Starter&lt;/h3&gt;
+&lt;p&gt;Install lumen starter into your personal computer by executing following command from Command Prompt / Terminal whatever you prefer.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;It will create directory named &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; and installs all dependencies in a single shot (impressed!). The project will have following directory structure&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;└── src
+    ├── assets
+    │   ├── fonts
+    │   │   └── fontello-771c82e0
+    │   │       ├── css
+    │   │       └── font
+    │   └── scss
+    │       ├── base
+    │       ├── mixins
+    │       └── pages
+    ├── components
+    │   ├── CategoryTemplateDetails
+    │   ├── Disqus
+    │   ├── Links
+    │   ├── Menu
+    │   ├── PageTemplateDetails
+    │   ├── Post
+    │   ├── PostTemplateDetails
+    │   ├── Sidebar
+    │   └── TagTemplateDetails
+    ├── layouts
+    ├── pages
+    │   ├── articles
+    │   │   ├── 2016-01-09---Perfecting-the-Art-of-Perfection
+    │   │   ├── 2016-01-12---The-Origins-of-Social-Stationery-Lettering
+    │   │   ├── 2016-02-02---A-Brief-History-of-Typography
+    │   │   ├── 2017-18-08---The-Birth-of-Movable-Type
+    │   │   └── 2017-19-08---Humane-Typography-in-the-Digital-Age
+    │   └── pages
+    │       ├── 2015-05-01---about
+    │       └── 2015-05-01---contact
+    └── templates
+└── gatsby-config.js&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h4&gt;Run Project&lt;/h4&gt;
+&lt;p&gt;Open command prompt / Terminal and hit &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; from &lt;code class=&quot;language-text&quot;&gt;lumen&lt;/code&gt; directory. It will run our first blog via local server on &lt;a href=&quot;http://localhost:8000/&quot;&gt;localhost:8000&lt;/a&gt; url. 🎉 🎉 🎉
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 678px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 70.79646017699115%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABt0lEQVQoz2VSi47bIBD0//9ZpUpVGyl2znd5GYMT8AMMNn7hjqHJ5XojjBbvDjsDRNXp/eP0k5W806Ysy6qqjDFd12HaxhZsUEoJLuq6bpoGZZTSy+USKZQ3XLZtq1olUaN0qxFgbbQ0rez8Xlpr9YKwRbSsa5mdzr9/rOs6eszzzFhxPp+aOxH0XAqOOmzhnFs85geieXG3/JrufrXaDIMFGen7/XY4HI7H49tbmiRJmqaEEGguPSBkmiZURpgbqdjtzhiVUvZ2WJwz3dB1Njj2mg1kI1t5WGuDxggf/CI3jlPf91720khjZLP2rYOwZVmdWz2C5vGBCAvOBef8+RcVhGTx7s97vPtI0x5ulxlbOA9kP8lQr2QteBFsjOMwTXNV1dmVkG1cWZ6znNKcMkoLhlWOo356nitRgD49OiMhBCcZ2Tgkx8gJKbmAZ9D+99z3nbUD8NQjtR2sXcfBBTMDAjjfbEP5p+zAeSFunTNCyeVYFRkuBn1wXssSLnmdXz2/NnySc5Lt9/s4SeI4ZoxBani5mL7c83cyUEuNM1PeZHgbwiME4Ub/ef6Orp82AQ/MX/Es+wvpWx5JxEwi6wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;blog_layout.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png&quot;
+        srcset=&quot;/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-9476e.png 240w,
+/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-a94e0.png 480w,
+/static/blog_layout-8d5fe41a41f804c10767357ba3cf5c75-3444d.png 678w&quot;
+        sizes=&quot;(max-width: 678px) 100vw, 678px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;em&gt;Example of running lumen blog starter.&lt;/em&gt;
+Navigate through &lt;code class=&quot;language-text&quot;&gt;src/pages/articles&lt;/code&gt; where you can find blogs and their related images. Also you can just add new blogs and delete old ones.&lt;/p&gt;
+&lt;h3&gt;Edit Configuration&lt;/h3&gt;
+&lt;p&gt;find &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; from root directory and edit &lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;subtitle&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;author&lt;/code&gt; information, Here you go our blog is ready to deploy. You can change avatar by navigating through file &lt;code class=&quot;language-text&quot;&gt;src/pages/photo.jpg&lt;/code&gt; and just replace with your avtar.&lt;/p&gt;
+&lt;h3&gt;Deploy On Github Pages&lt;/h3&gt;
+&lt;p&gt;Now it might seems like what about deploying this blog? So we are going to deploy it on &lt;a href=&quot;https://github.com/&quot;&gt;Gihub&lt;/a&gt; using &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First of all create public repository with &lt;your user name&gt;.github.io. If you don’t have github account just open one first, then install gatsby community plugin called &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt;. run following command to install it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm install gh-pages --save-dev&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;then add following &lt;code class=&quot;language-text&quot;&gt;deploy&lt;/code&gt; script to &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token string&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token string&quot;&gt;&quot;deploy&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public --branch master&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;file: package.json&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;why I had set branch as &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;? becuase github pages requires &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch for deploying pages. You need to add &lt;code class=&quot;language-text&quot;&gt;pathPrefix&lt;/code&gt; into &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; to let &lt;code class=&quot;language-text&quot;&gt;gatbyjs&lt;/code&gt; know which repository to select.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    pathPrefix&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;/github username&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;file: gatsby-config.js&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Next step is checkout your github repository to exisiting directory and deploy blog. Execute following commands to &lt;code class=&quot;language-text&quot;&gt;init&lt;/code&gt; git repository and add &lt;code class=&quot;language-text&quot;&gt;origin&lt;/code&gt; to your project.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;cd lumen
+git init
+git remote add origin https://github.com/your-user-name/your-user-name.github.io.git
+git fetch
+git branch master origin/master
+git checkout my-blog
+git add .
+git commit -m &lt;span class=&quot;token string&quot;&gt;&apos;first commit&apos;&lt;/span&gt;
+git push&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Here, I had choose &lt;code class=&quot;language-text&quot;&gt;my-blog&lt;/code&gt; branch for source because &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; will be used for deploying compiiled blog source.
+Bingo you are now ready to launch. 🚀 just hit following command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Then open &lt;a href=&quot;http://your-user-name.github.io/&quot;&gt;your-user-name.github.io&lt;/a&gt; and here we are, after hard work of one hour.
+Now you are thinking What about anyone want to comment on post? What about anyone want to subscribe to blog? I will write about both of them in my next blog keep in touch.&lt;/p&gt;
+&lt;p&gt;P.S. If you liked post and want subscribe for next post just enter your email into input at end of post and any suggestions and comments are welcomed. just put your thoughts into comment box and I will try my best to improve on it. Thank you. for more information navigate through official site of &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;gatsby&lt;/a&gt; Happy Exploring.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Prove Simplification of Artificial Neural Network]]></title><description><![CDATA[It's much easier than you think.]]></description><link>https://arjun-kava.github.io//posts/prove-simplification-of-neural-network/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/prove-simplification-of-neural-network/</guid><pubDate>Fri, 20 Jul 2018 13:44:50 GMT</pubDate><content:encoded>&lt;p&gt;In last couple decades &lt;em&gt;Artificial Intelligence&lt;/em&gt; had made a great progress to solve day to day problems. We even didn’t knew how much AI used in our daily life. It is just everywhere finding a product from Amazon, searching something on Google even tagging your buddy on Facebook.&lt;/p&gt;
+&lt;p&gt;But what kind of work, &lt;em&gt;Scientists&lt;/em&gt; are doing over the last couple of decades and many of them trying to replicate &lt;em&gt;Human Brain&lt;/em&gt;! How? With the help of deep learnings and neural network which behaves like human brain. How exactly Deep Learning and Neural Network works? Lets take a closer look.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Road Map&lt;/h3&gt;
+&lt;p&gt;Have you ever think How robot recognize Cat or Dog standing in front of it? No! It’s time to find it out otherwise Robot will take our job to make pets happier then ever soon.
+&lt;img src=&quot;/dog-cat-3fea3d1cf02c617d77b4b6bf9449ed55.gif&quot; alt=&quot;dog-cat.gif&quot;&gt;
+Image Source: &lt;a href=&quot;https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8&quot;&gt;becominghuman.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In Today’s post we will learn, How science of &lt;em&gt;Deep Learning&lt;/em&gt; have made it possible to recognize day to day life entities and How it simulates procedure followed by Human Brain. isn’t it exiting? No! Let me make it one.&lt;/p&gt;
+&lt;h3&gt;How Does our 1,400 grams head differs from Deep Learning?&lt;/h3&gt;
+&lt;p&gt;Human brain has billions of cells called &lt;em&gt;Neurons&lt;/em&gt;. Each neuron is made of &lt;em&gt;Cell Body&lt;/em&gt;(i.e. Central Unit), &lt;em&gt;Dendrites&lt;/em&gt;(i.e. Cell’s Input) and &lt;em&gt;Axo&lt;/em&gt;n(i.e. Cell’s Output). &lt;/p&gt;
+&lt;p&gt;At each neuron, It receives signal from other neurons. If the incoming signal have high electrical pulse for a certain period of time, It send high electrical pulse into terminals and These Terminals connected to other Dendrites of neurons in network.&lt;/p&gt;
+&lt;p&gt;As we learn new things these neurons increases. Every action done by human and also though generated by our brain is somehow dependent on series of &lt;em&gt;Neuron Activations&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-4d5c7.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 731px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.804377564979475%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAd6KQyg//8QAGBAAAgMAAAAAAAAAAAAAAAAAABABAhH/2gAIAQEAAQUC1yVX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhABAAIDAQAAAAAAAAAAAAAAAQAQETFxIf/aAAgBAQABPyHaLhewX2mj2v/aAAwDAQACAAMAAAAQM8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhMRCB/9oACAEBAAE/EKtSn7FSPRsU4CmjGZFO5NI+P//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Biological-vs-artificial-neuron.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-4d5c7.jpeg&quot;
+        srcset=&quot;/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-8e303.jpeg 240w,
+/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-a40b9.jpeg 480w,
+/static/Biological-vs-artificial-neuron-99e36eb3441f4332cbeb026a2f9cb52d-4d5c7.jpeg 731w&quot;
+        sizes=&quot;(max-width: 731px) 100vw, 731px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://msatechnosoft.in/blog/tech-blogs/artificial-neural-network-types-feed-forward-feedback-structure-perceptron-machine-learning-applications&quot;&gt;msatechnosoft.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;While on other hand, &lt;em&gt;ANN(Artificial Neural Network)&lt;/em&gt; is simulation of same concept. ANN have &lt;em&gt;Input Layers(i.e. Dendrites)&lt;/em&gt;, &lt;em&gt;Middle Hidden Layers(i.e. Cell Body)&lt;/em&gt; and &lt;em&gt;Output Layes(i.e. Axon)&lt;/em&gt;. Information are feed into the network via Input Layer, Which &lt;em&gt;triggers some hidden units&lt;/em&gt; which flows from left to right. Inputs are &lt;em&gt;multiplied the weights&lt;/em&gt; travels along. Every Hidden layer add some value. If Sum is more than a certain &lt;em&gt;threshold&lt;/em&gt; value, the Hidden Node fires and &lt;em&gt;triggers next connected node of network&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For the neural network to learn, &lt;em&gt;continuous feedback&lt;/em&gt; needs to be involved. As children learn by being told what is right or wrong, Neural Network learn things exactly the same way by feedback process called &lt;em&gt;Backpropogation&lt;/em&gt;(will talk about it more in next posts). This procedure involves comparison of the output produce and output meant to be be produce.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Learning Process&lt;/em&gt; of Neural Network is defines each and every feature of particular object and set weights of network on basis of actual and intended output&lt;/p&gt;
+&lt;h3&gt;Foot Notes&lt;/h3&gt;
+&lt;p&gt;There are lots of amazing application of Neural Network such as Image Classification, Regression, Segmentation, Generation and lots more. We are living in era where things are automating as we moves forward to the future.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/funny-55869954d5fbe61dcc32f74453fc0bfd-c67c1.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAABVzyWK5OIf//EABoQAQEAAgMAAAAAAAAAAAAAAAECAAMREiL/2gAIAQEAAQUCmeTw5HRNrc5No1bD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEREjH/2gAIAQMBAT8BlPCx/8QAFhEBAQEAAAAAAAAAAAAAAAAAABJh/9oACAECAQE/AUa//8QAHBAAAgICAwAAAAAAAAAAAAAAAAExQRARIlGB/9oACAEBAAY/Am3VHRLXouWNSf/EABsQAAIDAQEBAAAAAAAAAAAAAAABESExQVFh/9oACAEBAAE/IVSjwvRyU2kFq7OIyjnKNA7Jrj7Z/9oADAMBAAIAAwAAABDQH//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESEx/9oACAEDAQE/EEWRGnL/xAAYEQEAAwEAAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxCkdjZ6n//EAB0QAQADAQACAwAAAAAAAAAAAAEAESFxMUGBweH/2gAIAQEAAT8QX0lAG/iMFesA2+a+oUeiEHz2MgkxQiHYEtDGNJxjuwodh3jP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;funny.jpeg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/funny-55869954d5fbe61dcc32f74453fc0bfd-d564d.jpeg&quot;
+        srcset=&quot;/static/funny-55869954d5fbe61dcc32f74453fc0bfd-865fd.jpeg 240w,
+/static/funny-55869954d5fbe61dcc32f74453fc0bfd-d40a0.jpeg 480w,
+/static/funny-55869954d5fbe61dcc32f74453fc0bfd-d564d.jpeg 960w,
+/static/funny-55869954d5fbe61dcc32f74453fc0bfd-c67c1.jpeg 1440w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+Image Source: &lt;a href=&quot;https://hackernoon.com/learning-ai-if-you-suck-at-math-p5-deep-learning-and-convolutional-neural-nets-in-plain-english-cda79679bbe3&quot;&gt;hackernoon.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;P.S. : I will post more about implementations, libraries and framework used for Deep Learning soon, meanwhile if you have any queries regarding this post or deep learning free to comment below and also to DM me. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Improve Blogging With Feedback and Analytics]]></title><description><![CDATA[After creating blog, It will be meaningless If nobody comment it with ❤️ ❤️ ❤️ or 😍 😍 😍 , So Let some emojis to be flow around.]]></description><link>https://arjun-kava.github.io//posts/improve-blogging-with-feedback-and-analytics/</link><guid isPermaLink="false">https://arjun-kava.github.io//posts/improve-blogging-with-feedback-and-analytics/</guid><pubDate>Tue, 03 Jul 2018 16:04:34 GMT</pubDate><content:encoded>&lt;p&gt;After creating blog, It will be meaningless If nobody comment it with ❤️ ❤️ ❤️ or 😍 😍 😍, So Let some emojis to be flow around. &lt;/p&gt;
+&lt;p&gt;If you have not read my first blog, Please ready it first &lt;a href=&quot;https://arjun-kava.github.io/posts/how-to-create-successfull-blog-in-hour/&quot;&gt;how-to-create-successfull-blog-in-hour&lt;/a&gt;. Ignore if you have already read it.&lt;/p&gt;
+&lt;p&gt;This blog is all about improvements on How to get user feedback through comments, How to engage with them with subscriptions and Analyze traffic.&lt;/p&gt;
+&lt;p&gt;First of all Hats off to React Community and Gatsby Community. All community memebers are very active and providing variety of plugins for developers. Let’s start by adding multiple plugins integration for comments, subscriptions and trafiic analytics.&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&quot;#add-disqus-plugin-for-comments&quot;&gt;Add Disqus Plugin For Comments&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;We are going to use one of the plugin for integrating &lt;a href=&quot;https://disqus.com&quot;&gt;disqus&lt;/a&gt; with &lt;code class=&quot;language-text&quot;&gt;gatsbyjs&lt;/code&gt;. hit the following command from your project root.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;yarn add react-disqus-comments --save&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Then create directory named &lt;code class=&quot;language-text&quot;&gt;Disqus&lt;/code&gt; under &lt;code class=&quot;language-text&quot;&gt;src/components&lt;/code&gt; directory and create &lt;code class=&quot;language-text&quot;&gt;index.jsx&lt;/code&gt; file also put following component code into &lt;code class=&quot;language-text&quot;&gt;index.jsx&lt;/code&gt; file.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ReactDisqusComments &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react-disqus-comments&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Disqus&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; toasts&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;notifyAboutComment &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;notifyAboutComment&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;onSnackbarDismiss &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;onSnackbarDismiss&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;onSnackbarDismiss&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;toasts&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;toasts&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; toasts &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;notifyAboutComment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; toasts &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;toasts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    toasts&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; text&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;New comment available!!&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; toasts &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; postNode&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; siteMetadata &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;siteMetadata&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;disqusShortname&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; post &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; postNode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;frontmatter&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; siteMetadata&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; postNode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fields&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;slug&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ReactDisqusComments
+        shortname&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;siteMetadata&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;disqusShortname&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        identifier&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        title&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        url&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;url&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        category_id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;category_id&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        onNewComment&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;notifyAboutComment&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; Disqus&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now open official site of &lt;a href=&quot;https://disqus.com&quot;&gt;Disqus&lt;/a&gt; and create your account, click on &lt;code class=&quot;language-text&quot;&gt;Get Started&lt;/code&gt; then it will ask two options in which select &lt;code class=&quot;language-text&quot;&gt;I want to Install Disqus On My Site&lt;/code&gt; as displayed in following.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/disqus-start-8e33851e98d16c629d578f439251c9d7-2e976.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 709px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 83.63892806770099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADKUlEQVQ4y23TS08bVxjG8fkmVSpFwWOwZ4ydJmSXXaSqjbLOplLVb9Au2lWbkAQw+AI2t8TQrtrQKrt0kai5NBcCCapUtSUX4ju4YDDG8YyNL/+eM2OXIcLWq/d4ZvTzq3OeUfzX3+G/USVwwyCQMK3yi/VHcyYD8yan5+1+5vuDfmrOfqb7vLOU/pk9+mcr/A8nDHzXDc79aHJ+ocanCyYXfrb7+c76459ssIs6ccU3tUv/dBkJ+ztwQMAD84Y1kbNOOyY+mTh6SsU3uYNvqoSEAzNl1PgeX901ebbe5H66ycOM3X/P2nVPrJfEvcmVfbyzhgUfAvXYNnp8GwkHpkucGC8x/Nik3mpTNNvs1NpsGW3uppqk91qUxG9579e1Jn0zR4Da+Bb6RBEJ+wV6IrLN4IMq20aLjADylRbJcotHuSYp0bPimvyTWy8beBygX3axBYo3+i/a+CYS7o8XOR4qEnxUpS2+aQEkd1vWZNlK26rXpRaNNtxJOifsHJAFhjfwRgpIWBewGt7ks192SbwwiC8ZTHYqtmQy9bxGXNTcH3W+uVdDm7VT0Z1QoopnLIcnlEfCWrSAK1Tg4s0dYotVwk+qRERNLArwmUFk0bRqcrnGl3cMtOkKgfdyrPSNZvCMZZGwHlnn2FCe+NMKzk+tCeV6+9C1pVwDNSaSMXsQNwkrfSMp+oJpJKyHchy7lmX0YdmGxGa1xIluVOy9bDTFCTds+Le3ddSJHfzTBzmWL4jSO/SW3uEkEtbGMnwwmCb22AblaVYbsFeHyj7Wujvp08w+rqhIxtRBjiWsuK+9wT20hoS9wSQfDib5+naR1c06y9kaK/k6z3N2vRDrZdFXNxv8sGKgRrbwyQx3cixhRb3yCvXqa5ywnNgTTOEdTYups2hiK/Rw3tpjPbKBLg5Pk3GL2nHr5li+IIrr8irq4Eveh90d2D2cQh1Oo45kcAftw5Op8ITXRdw2cOZYwkrPpb9xXf4HJ+wWcK+AXVfXOBtP88VCgc9vFvgksS7QDF6ZilA3bodhpefbP+n57i+OguXE2sgaA5EkZ6IpAqEUvY5UdOPmhP8DBM/zqlZCacIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;disqus-start.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/disqus-start-8e33851e98d16c629d578f439251c9d7-2e976.png&quot;
+        srcset=&quot;/static/disqus-start-8e33851e98d16c629d578f439251c9d7-d1776.png 240w,
+/static/disqus-start-8e33851e98d16c629d578f439251c9d7-c11a6.png 480w,
+/static/disqus-start-8e33851e98d16c629d578f439251c9d7-2e976.png 709w&quot;
+        sizes=&quot;(max-width: 709px) 100vw, 709px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;em&gt;Start With Disqus.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;After selecting above option, It will ask you to submit details for your website just add name of your site.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/disqus-create-b9b9f6650e83a22430236ea2336dd86c-31b60.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 685px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 92.40875912408758%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAABz0lEQVQ4y51U7XKbMBD0+z9SpnmANNP8yt/Edd02GDABIRD6OLZ34mPk1GTcamZHSIjT7d4eu95YdF2/QjP63iAEgg/hn2Cdx643A172e+wPBxyOR7x+P6AoSvzPCETYDdbFyMvcDxbjfIBoxDjehhiQWe2s9XEhm8Q3yPDe8cuw3kw3BhXaa0DDmeXnCtYH3H+5w+PXB2it0Sq1QXD8m3LM0Pk1C9mQUb7X+Hkqkb8rFHWLWhtoLlQ3w8/ZX6c8B0yH5featxU/1IYYUkWKkojwS4CP80XAWrWRctUodLpFkWewQ7/Sixon2WwXZQ7o/eQjKUbdDTgWDX5XGqfG4KzYm2aiK27YtM0W5cAXWpZzYKksw9P1rD5iDSgLoVtWNaq6gXPsSWvhGJarLw6QzNLukedACXjtfEgoy0HeIApQvY10BUXTodUdpKPkA6Et7SnSTN4d1waYfHiFslAUyo4m+qnr0iJ8qqEcOjNd8aD8JE5ZxpXOkTPe3rL4wzBcmC0trwaMuog+rMngpt6e4KIHiS59hyTrNeCQ9PI0bzTazb2cZLgE/dUSvp0CnsuAJ57P5vPLLjRcjLpUTOT/oQiPmcdzEeJc9BT36YYM/wBFVYdRO1Lp3gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;disqus-create.png&quot;
+        title=&quot;&quot;
+        src=&quot;/static/disqus-create-b9b9f6650e83a22430236ea2336dd86c-31b60.png&quot;
+        srcset=&quot;/static/disqus-create-b9b9f6650e83a22430236ea2336dd86c-bd442.png 240w,
+/static/disqus-create-b9b9f6650e83a22430236ea2336dd86c-80d87.png 480w,
+/static/disqus-create-b9b9f6650e83a22430236ea2336dd86c-31b60.png 685w&quot;
+        sizes=&quot;(max-width: 685px) 100vw, 685px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+&lt;em&gt;Create Site With Disqus.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So far we had setup component for Disqus, Use this component and append it at end of &lt;code class=&quot;language-text&quot;&gt;PostTemplateDetails/index.jsx&lt;/code&gt; file. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;src/components/PostTemplateDetails/index.jsx&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt; below I have added three major lines which inport Disqus component, configure component and then call component in &lt;code class=&quot;language-text&quot;&gt;render()&lt;/code&gt; function.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Disqus &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../Disqus&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PostTemplateDetails&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+   &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; commentsBlock &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Disqus postNode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; siteMetadata&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;site&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;siteMetadata&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+   &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+       &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;homeBlock&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;post-single&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+           &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+           &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;commentsBlock&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+       &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+   &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; PostTemplateDetails&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Code of Disqus Plugin Integration&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Next you have to add &lt;code class=&quot;language-text&quot;&gt;short name&lt;/code&gt; of your site under &lt;code class=&quot;language-text&quot;&gt;siteMetadata&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;gaatsby-config.js&lt;/code&gt; file as below.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;siteMetadata&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+   disqusShortname&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;your-short-name&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// which is website name added while creting Disqus account.&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Thats all done with Disqus, run project and now you can see comment section at the end of each post.&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&quot;#add-mailchimp-plugin-for-subscription&quot;&gt;Add Mail Chimp Plugin For Subscription&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;we are going to use ‘Mail Chimp’ for creting subscription model. Install following plugin to support Mail Chimp Integration with gatsbyjs. If you don’t have Mail Chip account open it from &lt;a href=&quot;https://login.mailchimp.com/signup&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;yarn add gatsby&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;plugin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;mailchimp &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;save&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Now, you need &lt;code class=&quot;language-text&quot;&gt;Mailchimp Endpoint&lt;/code&gt; follow steps given at offcial plugin page &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp/?=mail&quot;&gt;gatsby-plugin-mailchimp&lt;/a&gt;. Configure &lt;code class=&quot;language-text&quot;&gt;Mail Chimp Plugin&lt;/code&gt; be adding following line into &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;plugins&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;gatsby-plugin-mailchimp&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      endpoint&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;your mail chip end point url&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// see instructions at official plugin page&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;I have created small component to call Mail Chimp API for adding user into list of subscription as below. Add this code into &lt;code class=&quot;language-text&quot;&gt;Subscribe/index.jsx&lt;/code&gt; by creating new component under &lt;code class=&quot;language-text&quot;&gt;src/components&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;react&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; addToMailchimp &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;gatsby-plugin-mailchimp&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Subscribe&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;``&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// Update state each time user edits their email address&lt;/span&gt;
+    &lt;span class=&quot;token function-variable function&quot;&gt;_handleEmailChange&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// Post to MC server &amp;amp; handle its response&lt;/span&gt;
+    &lt;span class=&quot;token function-variable function&quot;&gt;_postEmailToMailchimp&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; attributes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;addToMailchimp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; attributes&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token comment&quot;&gt;// Mailchimp always returns a 200 response&lt;/span&gt;
+                &lt;span class=&quot;token comment&quot;&gt;// So we check the result for MC errors &amp;amp; failures&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;result &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`success`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        status&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`error`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        msg&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;msg&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    &lt;span class=&quot;token comment&quot;&gt;// Email address succesfully subcribed to Mailchimp&lt;/span&gt;
+                    &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        status&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`success`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        msg&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;msg&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token comment&quot;&gt;// Network failures, timeouts, etc&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    status&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`error`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                    msg&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token function-variable function&quot;&gt;_handleFormSubmit&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stopPropagation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                status&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`error`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                msg&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Please enter valid email!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+            &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                    status&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`sending`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                    msg&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+            &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;// setState callback (subscribe email to MC)&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;_postEmailToMailchimp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                pathname&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;location&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pathname&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+
+    &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`success`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Thank you&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; Youʼll receive your first email shortly&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Enjoyed &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt; post&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; Want to Receive the next one &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; your inbox&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;span&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;form
+                                id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;email-capture&quot;&lt;/span&gt;
+                                method&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;post&quot;&lt;/span&gt;
+                                noValidate
+                            &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                                    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;input
+                                        placeholder&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;you@email.com&quot;&lt;/span&gt;
+                                        onChange&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_handleEmailChange&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                                        required
+                                    &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                                    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button
+                                        className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;icon-mail&quot;&lt;/span&gt;
+                                        type&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;submit&quot;&lt;/span&gt;
+                                        onClick&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;_handleFormSubmit&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                                    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+                                    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                                    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;status &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`error`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div
+                                            dangerouslySetInnerHTML&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; __html&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;msg &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                                        &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                                    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;form&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;The above configuration is for creating and integrating &lt;code class=&quot;language-text&quot;&gt;Subscribe Plugin&lt;/code&gt; while we need to call this component to display subscription form. For this purpose we are going to use &lt;code class=&quot;language-text&quot;&gt;src/PostTemplateDetails/index.jsx&lt;/code&gt; component add subscribe block above &lt;code class=&quot;language-text&quot;&gt;{CommentBlock}&lt;/code&gt; added earlier in this post as below.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Subscribe &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../Subscribe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;PostTemplateDetails&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; SubscribeBlock &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Subscribe &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;homeBlock&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;post-single&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;SubscribeBlock&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;CommentBlock&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; PostTemplateDetails&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Run the project and Now You can see subscription block at end of each post and Test it by adding new Email into it. Which will be reflect to your &lt;code class=&quot;language-text&quot;&gt;Mail Chimp List&lt;/code&gt; created earlier. Amazing!&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&quot;#add-mailchimp-plugin-for-subscription&quot;&gt;Add Google Analytics Plugin For Tracking Trafic&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;So far we had added Feedback to our blog but It is more important to see How many users have reached to blog and from where traffic flows. I am going to introduce third plugin by &lt;code class=&quot;language-text&quot;&gt;gatsbyjs&lt;/code&gt; community called &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/?=gatsby-plugin-google-analytics&quot;&gt;gatsby-plugin-google-analytics&lt;/a&gt;. You should have to sign up through &lt;a href=&quot;https://www.google.com/analytics/#?modal_active=none&quot;&gt;Google Analytics&lt;/a&gt; and get tracking id from Analytics by creating New Website Account. Easy!&lt;/p&gt;
+&lt;p&gt;Install plugin into project by executing fllowing command.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;yarn add gatsby-plugin-google-analytics --save&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;and then add following configuration to your &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; file. Here you have to replace &lt;code class=&quot;language-text&quot;&gt;UA-YOUR-TRACKING-ID&lt;/code&gt; to tracking id of your google analytics account.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;plugins&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      resolve&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;gatsby-plugin-google-analytics&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      options&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; trackingId&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;UA-YOUR-TRACKING-ID&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Today, we had done so many things to make our blog more robust, dynamic and also user friendly. After completion of these steps, We are now ready to hit deployment So why we are wasting more time? just hit following command and see these changes in your live blog.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;run npm deploy&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;P.S. You can get reference of all these code on my blog repository &lt;a href=&quot;https://github.com/arjun-kava/arjun-kava.github.io&quot;&gt;arjun-kava.github.io&lt;/a&gt; under &lt;code class=&quot;language-text&quot;&gt;gatsby&lt;/code&gt; branch. If you like post and want next in your inbox hit subscription button with your email. Also give your opinion about post in below comment box. Happy Exploring.&lt;/p&gt;
+&lt;p&gt;As a deep learning engineer from today onwards I am going to write more about my learning journey of Computer Vision, Deep Learning and related libraries. Stay In Touch.&lt;/p&gt;</content:encoded></item></channel></rss>
